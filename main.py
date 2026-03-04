@@ -6,3 +6,5 @@ xmlRoot = tree.getroot()
 
 def createds():
     DatasetGenerator.generateDataset(xmlRoot.find('datasetPath').text, xmlRoot.find('datasetBckPath').text)
+
+createds()
