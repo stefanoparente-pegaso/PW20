@@ -3,11 +3,17 @@ import string
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 nltk.download('punkt')
 
-def tokenize_text(rev):
-    tokens = word_tokenize(rev) # lista
+def embed_dataset(rev_tk_df, vectorizer):
+    rev_strings = rev_tk_df.apply(lambda x: " ".join(x))
+    rev_tfidf = vectorizer.fit_transform(rev_strings)
+    return rev_tfidf
+
+def tokenize_text(rev_df):
+    tokens = word_tokenize(rev_df) # lista
     stop_words = set(stopwords.words('italian'))
     filtered_tokens = [word for word in tokens if word not in stop_words]
     return filtered_tokens
