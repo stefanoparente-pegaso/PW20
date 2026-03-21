@@ -10,6 +10,8 @@ from src.dataset_utils import preprocess_dataset, tokenize_text, embed_dataset
 from src.train_models import train_model
 from src.evaluate import evaluate_model
 
+# TODO: valutare di spostare ogni funzione in un file dedicato per mantenere pulito il main
+
 # Definizione root e creazione cartelle se non presenti
 root_path = pathlib.Path(__file__).parent.resolve()
 data_dir = root_path / "data"
@@ -56,7 +58,6 @@ def view_preprocessed_dataset():
             file.write(riga)
         print(f"Salvataggio completato in: {output_path}")
 
-
 def train():
     dataframe_80 = preprocess_dataset(dataset_path, training_rows_percentage, True)
     tokens = dataframe_80['recensione_completa'].apply(tokenize_text)
@@ -74,9 +75,15 @@ def check_results():
         return # TODO: return None ??
 
     dataframe_20 = preprocess_dataset(dataset_path, 100 - training_rows_percentage, False)
-    tokens = dataframe_20['recensione_completa'].apply(tokenize_text)
+    vectorizer = joblib.load(vectorizer_path)
+    rev_vector = vectorizer.transform(dataframe_20['recensione_completa'])
+    model_dep = joblib.load(dep_model_path)
+    model_sent = joblib.load(sent_model_path)
+    # TODO: assegnare risultati evaluation a variabili (listarle?) e visualizzarle
+    evaluate_model(model_dep, rev_vector, dataframe_20['Reparto'])
+    evaluate_model(model_sent, rev_vector, dataframe_20['Sentiment'])
 
-    return 1
+    return
 
 def main():
     # dataset_path, dataset_bck_path = init_config()
