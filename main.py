@@ -1,41 +1,4 @@
-import os.path
-import pathlib
-from pathlib import Path
-
-import joblib
-from sklearn.feature_extraction.text import TfidfVectorizer
-
-from src.DatasetGenerator import generateDataset
-from src.dataset_utils import preprocess_dataset, tokenize_text, embed_dataset
-from src.train_models import train_model
-from src.evaluate import evaluate_model
-
-# TODO: valutare di spostare ogni funzione in un file dedicato per mantenere pulito il main
-
-# Definizione root e creazione cartelle se non presenti
-root_path = pathlib.Path(__file__).parent.resolve()
-data_dir = root_path / "data"
-models_dir = root_path / "models"
-data_dir.mkdir(exist_ok=True)
-models_dir.mkdir(exist_ok=True)
-
-# Definizioni costanti path e righe da processare
-dataset_path = str(data_dir / "dataset.csv")
-dataset_bck_path = str(data_dir / "bck")
-dep_model_path = str(models_dir / "department_model.pkl")
-sent_model_path = str(models_dir / "sentiment_model.pkl")
-vectorizer_path = str(models_dir / "vectorizer.pkl")
-training_rows_percentage = 80
-
-# def init_config():
-#     root_path = pathlib.Path(__file__).parent.resolve()
-#     dataset_path = str(root_path / "data" / "dataset.csv")
-#     dataset_bck_path = str(root_path / "data" / "bck")
-#     dep_model_path = str(root_path / "models" / "department_model.pkl")
-#     sent_model_path = str(root_path / "models" / "sentiment_model.pkl")
-#     vectorizer_path = str(root_path / "models" / "vectorizer.pkl")
-#     return dataset_path, dataset_bck_path, dep_model_path, sent_model_path, vectorizer_path
-
+import src.controller as controller
 
 def print_menu():
     print()
@@ -48,45 +11,7 @@ def print_menu():
     print("5. Apri la dashboard interattiva")
     print()
 
-
-def view_preprocessed_dataset():
-    dataframe = preprocess_dataset(dataset_path, training_rows_percentage, True)
-    output_path = Path(dataset_path).parent / "preprocessed_dataset.txt"
-    with open(output_path, "w", encoding="utf-8") as file:
-        for index, row in dataframe.iterrows():
-            riga = f"{row['ID']} - {row['recensione_completa']} - {row['Reparto']} - {row['Sentiment']}\n"
-            file.write(riga)
-        print(f"Salvataggio completato in: {output_path}")
-
-def train():
-    dataframe_80 = preprocess_dataset(dataset_path, training_rows_percentage, True)
-    tokens = dataframe_80['recensione_completa'].apply(tokenize_text)
-    vectorizer = TfidfVectorizer()
-    rev_vector = embed_dataset(tokens, vectorizer)
-    model_dep = train_model(rev_vector, dataframe_80['Reparto'])
-    model_sent = train_model(rev_vector, dataframe_80['Sentiment'])
-    joblib.dump(vectorizer, vectorizer_path)
-    joblib.dump(model_dep, dep_model_path)
-    joblib.dump(model_sent, sent_model_path)
-
-def check_results():
-    if not os.path.exists(dep_model_path) or not os.path.exists(sent_model_path):
-        print("I modelli non sono ancora stati addestrati. Addestrare i modelli prima di lanciare questo comando.")
-        return # TODO: return None ??
-
-    dataframe_20 = preprocess_dataset(dataset_path, 100 - training_rows_percentage, False)
-    vectorizer = joblib.load(vectorizer_path)
-    rev_vector = vectorizer.transform(dataframe_20['recensione_completa'])
-    model_dep = joblib.load(dep_model_path)
-    model_sent = joblib.load(sent_model_path)
-    # TODO: assegnare risultati evaluation a variabili (listarle?) e visualizzarle
-    evaluate_model(model_dep, rev_vector, dataframe_20['Reparto'])
-    evaluate_model(model_sent, rev_vector, dataframe_20['Sentiment'])
-
-    return
-
 def main():
-    # dataset_path, dataset_bck_path = init_config()
 
     print("Benvenuto nel programma di machine learning PW20.")
     scelta = ""
@@ -95,10 +20,10 @@ def main():
         scelta = input("Scegli la funzionalità da eseguire: ")
         match scelta:
             case "0": return
-            case "1": generateDataset(dataset_path, dataset_bck_path)
-            case "2": view_preprocessed_dataset()
-            case "3": train()
-            case "4": check_results()
+            case "1": controller.generate_dataset()
+            case "2": controller.view_preprocessed_dataset()
+            case "3": controller.train()
+            case "4": controller.check_results()
         print()
         print("====================================================")
 
