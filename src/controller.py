@@ -8,14 +8,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from src.DatasetGenerator import generateDataset
 from src.dataset_utils import preprocess_dataset, tokenize_text, embed_dataset
 from src.train_models import train_model
-from src.evaluate import evaluate_model
+from src.evaluate import evaluate_model, show_results
 
 # TODO: valutare di spostare funzioni train, show, results in un file dedicato per mantenere pulito il main con solo opzioni menu
 
 # Definizione root e creazione cartelle se non presenti
 root_path = pathlib.Path(__file__).parent.parent.resolve()
 data_dir = root_path / "data"
-models_dir = root_path / "models"
+models_dir = root_path / "trained_models"
 data_dir.mkdir(exist_ok=True)
 models_dir.mkdir(exist_ok=True)
 
@@ -66,14 +66,14 @@ def check_results():
     if not os.path.exists(dep_model_path) or not os.path.exists(sent_model_path):
         print("I modelli non sono ancora stati addestrati. Addestrare i modelli prima di lanciare questo comando.")
         return # TODO: return None ??
-
+    models = []
     dataframe_20 = preprocess_dataset(dataset_path, 100 - training_rows_percentage, False)
     vectorizer = joblib.load(vectorizer_path)
     rev_vector = vectorizer.transform(dataframe_20['recensione_completa'])
     model_dep = joblib.load(dep_model_path)
     model_sent = joblib.load(sent_model_path)
-    # TODO: assegnare risultati evaluation a variabili (listarle?) e visualizzarle
-    evaluate_model(model_dep, rev_vector, dataframe_20['Reparto'])
-    evaluate_model(model_sent, rev_vector, dataframe_20['Sentiment'])
-
-    return
+    model_result_dep = evaluate_model('dep_model', model_dep, rev_vector, dataframe_20['Reparto'])
+    model_result_sent =  evaluate_model('sent_model', model_sent, rev_vector, dataframe_20['Sentiment'])
+    models.append(model_result_dep)
+    models.append(model_result_sent)
+    show_results(models)
