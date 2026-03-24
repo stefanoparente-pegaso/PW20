@@ -6,7 +6,7 @@ from models.model_result import ModelResult
 def show_results(models_to_show):
 
     for model in models_to_show:
-        print('test')
+        print(model.to_dict())
 
     return 2
 
