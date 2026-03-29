@@ -143,9 +143,3 @@ body {
     border-top: 1px solid var(--border-color);
 }
 
-@media (max-width: 768px) {
-    .results-grid {
-        grid-template-columns: 1fr;
-    }
-}
-

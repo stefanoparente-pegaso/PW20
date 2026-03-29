@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# TODO: come faccio a fare in modo che i log delle installazioni non vengano mostrati ogni volta???
+#TODO: come faccio a fare in modo che i log delle installazioni non vengano mostrati ogni volta???
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('stopwords')

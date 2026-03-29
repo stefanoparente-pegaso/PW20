@@ -5,3 +5,4 @@ __pycache__/
 trained_models/*
 static/evaluation_dashboard/report_generato.html
 data/prediction_errors/*
+!data/prediction_errors/.gitkeep
