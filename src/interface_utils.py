@@ -6,8 +6,8 @@ def launch_gradio(vectorizer, model_dep, model_sent):
     def predict(titolo, corpo):
         recensione = titolo + ' ' + corpo
         recensione = clean_text(recensione)
-        testo_tokenizzato = " ".join(tokenize_text(recensione))
-        vettore = vectorizer.transform([testo_tokenizzato])
+        tokens = " ".join(tokenize_text(recensione))
+        vettore = vectorizer.transform([tokens])
         dep = model_dep.predict(vettore)[0]
         sent = model_sent.predict(vettore)[0]
         # predict_proba restituisce entrambi score x positivo e negativo
