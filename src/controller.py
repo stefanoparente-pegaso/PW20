@@ -74,8 +74,10 @@ def check_results():
         train()
     models = []
     dataframe_20 = preprocess_dataset(dataset_path, 100 - training_rows_percentage, False)
+    tokens_20 = dataframe_20['recensione_completa'].apply(tokenize_text)
+    strings_20 = tokens_20.apply(lambda x: " ".join(x))
     vectorizer = joblib.load(vectorizer_path)
-    rev_vector = vectorizer.transform(dataframe_20['recensione_completa'])
+    rev_vector = vectorizer.transform(strings_20)
     model_dep = joblib.load(dep_model_path)
     model_sent = joblib.load(sent_model_path)
     model_result_dep = evaluate_model('DEPARTMENT MODEL', model_dep, rev_vector, dataframe_20['Reparto'], dep_matrix_labels, dataframe_20['ID'])
