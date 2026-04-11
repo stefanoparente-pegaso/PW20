@@ -6,9 +6,9 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 #TODO: come faccio a fare in modo che i log delle installazioni non vengano mostrati ogni volta???
-nltk.download('punkt')
-nltk.download('punkt_tab')
-nltk.download('stopwords')
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 def embed_dataset(rev_tk_df, vectorizer):
     rev_strings = rev_tk_df.apply(lambda x: " ".join(x))
