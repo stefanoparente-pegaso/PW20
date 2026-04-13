@@ -5,7 +5,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-#TODO: come faccio a fare in modo che i log delle installazioni non vengano mostrati ogni volta???
 nltk.download('punkt', quiet=True)
 nltk.download('punkt_tab', quiet=True)
 nltk.download('stopwords', quiet=True)
@@ -26,7 +25,7 @@ def clean_text(text):
     return text
 
 def preprocess_dataset(dataset_path, rows_to_return_percentage, ascending):
-    nltk.download('punkt')
+    # nltk.download('punkt') --> se si rompe riattivare
     df = pd.read_csv(dataset_path, sep=';')
     df['recensione_completa'] = df['Titolo'] + " " + df['Corpo']
     df['recensione_completa'] = df['recensione_completa'].apply(clean_text)
