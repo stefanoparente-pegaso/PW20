@@ -60,7 +60,7 @@ def view_preprocessed_dataset():
 def train():
     dataframe_80 = preprocess_dataset(dataset_path, training_rows_percentage, True)
     tokens = dataframe_80['recensione_completa'].apply(tokenize_text)
-    vectorizer = TfidfVectorizer(stop_words=None, ngram_range=(1, 2), min_df=1, max_df=0.9, use_idf=True, sublinear_tf=True)
+    vectorizer = TfidfVectorizer(stop_words=None, ngram_range=(1, 2), min_df=5, max_df=0.7, use_idf=True, sublinear_tf=True)
     rev_vector = embed_dataset(tokens, vectorizer)
     model_dep = train_model(rev_vector, dataframe_80['Reparto'])
     model_sent = train_model(rev_vector, dataframe_80['Sentiment'])
