@@ -26,7 +26,8 @@ dataset_path = str(data_dir / "dataset.csv")
 dataset_bck_path = str(data_dir / "bck")
 dep_model_path = str(models_dir / "department_model.pkl")
 sent_model_path = str(models_dir / "sentiment_model.pkl")
-vectorizer_path = str(models_dir / "vectorizer.pkl")
+vectorizer_sent_path = str(models_dir / "vectorizer_sent.pkl")
+vectorizer_dep_path = str(models_dir / "vectorizer_dep.pkl")
 training_rows_percentage = 80
 
 # In ordine alfabetico
@@ -57,42 +58,90 @@ def view_preprocessed_dataset():
             file.write(riga)
         print(f"Salvataggio completato in: {output_path}")
 
+
 def train():
     dataframe_80 = preprocess_dataset(dataset_path, training_rows_percentage, True)
-    tokens = dataframe_80['recensione_completa'].apply(tokenize_text)
-    vectorizer = TfidfVectorizer(stop_words=None, ngram_range=(1, 2), min_df=5, max_df=0.7, use_idf=True, sublinear_tf=True)
-    rev_vector = embed_dataset(tokens, vectorizer)
-    model_dep = train_model(rev_vector, dataframe_80['Reparto'])
-    model_sent = train_model(rev_vector, dataframe_80['Sentiment'])
-    joblib.dump(vectorizer, vectorizer_path)
+
+    tokens_dep = dataframe_80['recensione_completa'].apply(lambda x: tokenize_text(x, sentiment=False))
+    vectorizer_dep = TfidfVectorizer(ngram_range=(1, 2), min_df=2, max_df=0.9, sublinear_tf=True, use_idf=True) # TODO: provare use_idf = True
+    # Trasformiamo i token in stringhe per il vectorizer
+    rev_strings_dep = tokens_dep.apply(lambda x: " ".join(x))
+    rev_vector_dep = vectorizer_dep.fit_transform(rev_strings_dep)
+
+    model_dep = train_model(rev_vector_dep, dataframe_80['Reparto'])
+
+    tokens_sent = dataframe_80['recensione_completa'].apply(lambda x: tokenize_text(x, sentiment=True))
+    vectorizer_sent = TfidfVectorizer(ngram_range=(1, 2), min_df=2, max_df=0.7, sublinear_tf=True, use_idf=False) # TODO: provare min = 1 e use_idf = True
+    rev_strings_sent = tokens_sent.apply(lambda x: " ".join(x))
+    rev_vector_sent = vectorizer_sent.fit_transform(rev_strings_sent)
+
+    model_sent = train_model(rev_vector_sent, dataframe_80['Sentiment'])
+
+    import numpy as np
+    feature_names = vectorizer_sent.get_feature_names_out()
+    print("\n--- ANALISI DEI PESI DEL MODELLO SENTIMENT (Solo ADJ/ADV) ---")
+    for i, class_label in enumerate(model_sent.classes_):
+        if len(model_sent.classes_) <= 2:
+            weights = model_sent.coef_[0] if i == 1 else -model_sent.coef_[0]
+        else:
+            weights = model_sent.coef_[i]
+        top10_idx = np.argsort(weights)[-20:]
+        print(f"Top 10 parole per {class_label}: {[feature_names[j] for j in top10_idx]}")
+    print("------------------------------------\n")
+
+    joblib.dump(vectorizer_dep, vectorizer_dep_path)
+    joblib.dump(vectorizer_sent, vectorizer_sent_path)
     joblib.dump(model_dep, dep_model_path)
     joblib.dump(model_sent, sent_model_path)
+
 
 def check_results():
     if not os.path.exists(dep_model_path) or not os.path.exists(sent_model_path):
         print("I modelli non sono ancora stati addestrati. Verrà eseguito anche addestramento")
         train()
+
     models = []
     dataframe_20 = preprocess_dataset(dataset_path, 100 - training_rows_percentage, False)
-    tokens_20 = dataframe_20['recensione_completa'].apply(tokenize_text)
-    strings_20 = tokens_20.apply(lambda x: " ".join(x))
-    vectorizer = joblib.load(vectorizer_path)
-    rev_vector = vectorizer.transform(strings_20)
+
+    tokens_dep = dataframe_20['recensione_completa'].apply(lambda x: tokenize_text(x, sentiment=False))
+    strings_dep = tokens_dep.apply(lambda x: " ".join(x))
+    vectorizer_dep = joblib.load(vectorizer_dep_path)
+    rev_vector_dep = vectorizer_dep.transform(strings_dep)
+
+    tokens_sent = dataframe_20['recensione_completa'].apply(lambda x: tokenize_text(x, sentiment=True))
+    strings_sent = tokens_sent.apply(lambda x: " ".join(x))
+    vectorizer_sent = joblib.load(vectorizer_sent_path)
+    rev_vector_sent = vectorizer_sent.transform(strings_sent)
+
+    # Caricamento modelli
     model_dep = joblib.load(dep_model_path)
     model_sent = joblib.load(sent_model_path)
-    model_result_dep = evaluate_model('DEPARTMENT MODEL', model_dep, rev_vector, dataframe_20['Reparto'], dep_matrix_labels, dataframe_20['ID'])
-    model_result_sent = evaluate_model('SENTIMENT MODEL', model_sent, rev_vector, dataframe_20['Sentiment'], sent_matrix_labels, dataframe_20['ID'])
+
+    # model_result_dep = evaluate_model('DEPARTMENT MODEL', model_dep, rev_vector_dep, dataframe_20['Reparto'], dep_matrix_labels, dataframe_20['ID'])
+    model_result_dep = evaluate_model('DEPARTMENT MODEL', model_dep, rev_vector_dep, dataframe_20['Reparto'], dep_matrix_labels, dataframe_20['ID'], dataframe_20['recensione_completa'])
+    # model_result_sent = evaluate_model('SENTIMENT MODEL', model_sent, rev_vector_sent, dataframe_20['Sentiment'], sent_matrix_labels, dataframe_20['ID'])
+    model_result_sent = evaluate_model('SENTIMENT MODEL', model_sent, rev_vector_sent, dataframe_20['Sentiment'], sent_matrix_labels, dataframe_20['ID'], dataframe_20['recensione_completa'])
+
     models.append(model_result_dep)
     models.append(model_result_sent)
     show_results(models)
+
 
 def open_interface():
     if not os.path.exists(dep_model_path) or not os.path.exists(sent_model_path):
         print("I modelli non sono ancora stati addestrati. Verrà eseguito anche addestramento")
         train()
-    vectorizer = joblib.load(vectorizer_path)
+
+    v_dep = joblib.load(vectorizer_dep_path)
+    v_sent = joblib.load(vectorizer_sent_path)
+
+    # Carichiamo i modelli
     model_dep = joblib.load(dep_model_path)
     model_sent = joblib.load(sent_model_path)
-    launch_gradio(vectorizer, model_dep, model_sent)
+
+    # Passiamo tutto alla funzione launch_gradio
+    # NOTA: dovrai aggiornare la funzione launch_gradio in interface_utils.py
+    # affinché accetti questi 4 parametri invece di 3.
+    launch_gradio(v_dep, v_sent, model_dep, model_sent)
 
     return ""

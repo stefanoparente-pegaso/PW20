@@ -6,8 +6,6 @@ from models.model_result import ModelResult
 from .dashboard_html_utils import get_html_model
 import pandas as pd
 
-#TODO: aggiungere possibilità di salvare le card html come immagini per metterle nel report?
-
 def show_results(models_to_show):
     dashboard_dir = './static/evaluation_dashboard/'
     template_path = os.path.join(dashboard_dir, 'dashboard.html')
@@ -52,16 +50,42 @@ def get_errors_csv(model_name, prediction, column_df, id_df):
     filename = os.path.join(target_dir, f"errori_{model_name}.csv")
     errors.to_csv(filename, index=False, sep=';', encoding='utf-8')
 
-def evaluate_model(name, model, rev_vector, column_df, labels, id_df):
+# DEBUG
 
+def evaluate_model(name, model, rev_vector, column_df, labels, id_df, original_texts):
     prediction = model.predict(rev_vector)
     accuracy = accuracy_score(column_df, prediction)
     f1 = f1_score(column_df, prediction, average='macro')
-    # conf matrix ordina alfabeticamente F&B, Housekeeping, Reception
     conf_matrix = confusion_matrix(column_df, prediction)
+
+    # --- DEBUG ERRORI SPECIFICI ---
+    print(f"\n--- ANALISI ERRORI TARGET: {name} ---")
+
+    # Creiamo un piccolo df temporaneo per l'analisi
+    df_debug = pd.DataFrame({
+        'Testo': original_texts,
+        'Reale': column_df.values,
+        'Predetto': prediction
+    })
+
+    # Filtro 1: Era Reception ma ha predetto altro
+    if name == 'DEPARTMENT MODEL':
+        errori_reception = df_debug[(df_debug['Reale'] == 'Reception') & (df_debug['Predetto'] != 'Reception')]
+        print(f"\nERRORE: Erano RECEPTION ma il modello ha detto altro ({len(errori_reception)} casi):")
+        for i, row in errori_reception.head(10).iterrows():  # Vediamo i primi 10
+            print(f"- SCRITTO: {row['Testo'][:80]}... | PREDETTO: {row['Predetto']}")
+
+    # Filtro 2: Era Negativo ma ha predetto Positivo
+    if name == 'SENTIMENT MODEL':
+        falsi_positivi = df_debug[(df_debug['Reale'] == 'Negativo') & (df_debug['Predetto'] == 'Positivo')]
+        print(f"\nERRORE: Erano NEGATIVI ma il modello ha detto POSITIVO ({len(falsi_positivi)} casi):")
+        for i, row in falsi_positivi.head(10).iterrows():
+            print(f"- SCRITTO: {row['Testo'][:80]}... | PREDETTO: {row['Predetto']}")
+
+    print("---------------------------------------\n")
+    # ------------------------------
 
     result = ModelResult(name, accuracy, f1, conf_matrix, labels)
     get_errors_csv(name, prediction, column_df, id_df)
-
 
     return result

@@ -1,63 +1,63 @@
 ID;Titolo;Corpo;Reparto;Sentiment
 1;Servizio lento;I camerieri erano cortesi ma il servizio era lentissimo. Abbiamo aspettato 20 minuti per il conto.;F&B;Negativo
-2;Lasagna fredda;La lasagna è arrivata ghiacciata al centro. Immangiabile.;F&B;Negativo
+2;Lasagna fredda;La lasagna è arrivata ghiacciata al centro, questo rendeva anche l’impasto particolarmente duro. Immangiabile.;F&B;Negativo
 3;Terrazza solarium perfetta;La terrazza solarium era attrezzata con lettini, docce e un bar. Pulita e ordinata. Vista spettacolare.;Housekeeping;Positivo
 4;Materasso scomodo;Il materasso era troppo morbido e mi ha fatto male alla schiena. Personale comunque gentile.;Housekeeping;Negativo
 5;Reception maleducata;La ragazza alla reception è stata molto maleducata e disinteressata quando chiedevo informazioni.;Reception;Negativo
 6;Torte artigianali buonissime;Le torte da forno a colazione erano fatte in casa con ricette tradizionali. Si scioglievano in bocca.;F&B;Positivo
-7;Tisane biologiche;Vasta scelta di tisane e infusi biologici in camera e a colazione. Ottima varietà.;F&B;Positivo
-8;Scambio teli mare rapido;Servizio di scambio teli mare rapidissimo. Personale efficiente e con il sorriso.;Reception;Positivo
+7;Tisane biologiche;Vasta scelta di tisane e infusi biologici in camera e a colazione. Ottima varietà e qualità decente.;F&B;Positivo
+8;Scambio teli mare rapido;Servizio di scambio teli mare rapidissimo. Personale efficiente e sempre con il sorriso.;Reception;Positivo
 9;Troppo rumore;L'hotel è molto rumoroso. Pareti sottili, si sente ogni rumore. Difficile prendere sonno.;Housekeeping;Negativo
-10;Cena buona ma attesa lunga;Piatti gustosi ma attesa eccessiva tra le portate. Quasi un'ora tra antipasto e primo.;F&B;Negativo
+10;Attesa troppo lunga;Piatti gustosi ma attesa eccessiva tra le portate. Quasi un'ora tra antipasto e primo. Non c’era nemmeno così tanta gente.;F&B;Negativo
 11;Poca luce in camera;L'illuminazione artificiale era scarsa e cupa. Ambiente poco piacevole.;Housekeeping;Negativo
-12;Nessuna informazione al check-in;Non ci hanno dato informazioni su orari e servizi. Ci siamo sentiti abbandonati.;Reception;Negativo
-13;Mappa interattiva utile;Ci hanno dato accesso a una mappa interattiva della città. Utilissima e innovativa.;Reception;Positivo
-14;Camera polverosa;Sotto il letto c'era polvere e ragnatele. Pulizia superficiale e sciatta.;Housekeeping;Negativo
-15;Carne tenerissima;Tagliata di manzo cotta alla perfezione. Super.;F&B;Positivo
-16;Disguido risolto rapidamente;Hanno risolto un problema con la prenotazione in pochi minuti. Professionali.;Reception;Positivo
+12;Nessuna informazione al check-in;Nonostante le nostre richieste non ci hanno dato informazioni su orari e servizi. Ci siamo sentiti abbandonati.;Reception;Negativo
+13;Mappa interattiva utile;Ci hanno dato accesso a una mappa interattiva della città. Utilissima e innovativa, apprezzata specialmente da noi amanti della tecnologia.;Reception;Positivo
+14;Pulizia mediocre;Sotto il letto c'era polvere e ragnatele. Pulizia superficiale e sciatta.;Housekeeping;Negativo
+15;Carne tenerissima;Tagliata di manzo cotta alla perfezione, proprio come piace a me. Super.;F&B;Positivo
+16;Disguido risolto rapidamente;La persona che mi ha dato supporto ha risolto un piccolo problema con la prenotazione in pochi minuti. Professionali.;Reception;Positivo
 17;Camere pulitissime;Camera sempre in ordine e profumata. Pulizia maniacale di ogni angolo.;Housekeeping;Positivo
-18;Cameriere maleducato;Il cameriere è stato incredibilmente maleducato. Ci ha quasi insultati.;F&B;Negativo
-19;Nessun cestino in camera;Nella camera non c'era alcun cestino per i rifiuti. Assurdo.;Housekeeping;Negativo
-20;Cameriere distratto;Il cameriere ha dimenticato la nostra ordinazione. Abbiamo aspettato un'ora.;F&B;Negativo
-21;Lenzuola di lino pregiato;Lenzuola di lino pregiato, fresche e morbidissime. Un lusso silenzioso.;Housekeeping;Positivo
-22;Moquette vecchia;Camera pulita ma moquette vecchia e macchiata. Andrebbe sostituita.;Housekeeping;Negativo
-23;Cameriere che dormiva;Durante la cena un cameriere sonnecchiava al tavolo. Professionalità zero.;F&B;Negativo
+18;Cameriere maleducato;Il cameriere è stato incredibilmente maleducato. Ci ha quasi insultati solamente perché gli abbiamo chiesto una salsa in più.;F&B;Negativo
+19;Nessun cestino in camera;Sono rimasto frustrato dal fatto che nella nostra camera non c'era alcun cestino per i rifiuti. Assurdo.;Housekeeping;Negativo
+20;Cameriere distratto;Il cameriere ha dimenticato la nostra ordinazione. Abbiamo dovuto litigare e aspettare un'ora per avere la nostra roba.;F&B;Negativo
+21;Lenzuola di lino pregiato;Un plauso alle lenzuola di lino pregiato, fresche e morbidissime. Un lusso silenzioso.;Housekeeping;Positivo
+22;Moquette vecchia;Camera in posizione con vista ma moquette vecchia e macchiata. Andrebbe sostituita.;Housekeeping;Negativo
+23;Cameriere che dormiva;Ho visto durante la cena che un cameriere sonnecchiava al tavolo. Professionalità meno di zero.;F&B;Negativo
 24;Piatti al tartufo sublimi;Tagliolini al tartufo bianco sublimi. Esperienza culinaria di altissimo livello.;F&B;Positivo
-25;Camerieri disorganizzati;Camerieri sorridenti ma disorganizzati. Portavano piatti ai tavoli sbagliati.;F&B;Negativo
-26;Temperatura personalizzata;Ci chiedevano se volevamo regolare la temperatura. Piccola attenzione gradita.;Housekeeping;Positivo
+25;Camerieri disorganizzati;Camerieri sorridenti ma disorganizzati. Portavano piatti ai tavoli sbagliati. Secondo me è anche pericoloso se qualcuno ha problemi con qualche cibo.;F&B;Negativo
+26;Temperatura personalizzata;Ci chiedevano se volevamo regolare la temperatura. Piccola attenzione gradita che ci ha persemmo di vivere un’esperienza positiva.;Housekeeping;Positivo
 27;Scarico lento;Bagno ristrutturato ma scarico del lavandino lentissimo. Difetto di installazione.;Housekeeping;Negativo
 28;Bufala cruda;Bufala completamente cruda e dura. Rimandata indietro, tornata bruciacchiata.;F&B;Negativo
-29;Reception impersonale;Check-in efficiente ma atmosfera fredda e impersonale. Poco calore umano.;Reception;Negativo
-30;Ascensore rotto;Ascensore rotto. Abbiamo dovuto fare quattro piani a piedi.;Reception;Negativo
-31;Polvere e allergia;Dopo poche ore in camera abbiamo iniziato a starnutire per la polvere. Vacanza rovinata.;Housekeeping;Negativo
-32;Mancanza di insonorizzazione;Pareti di carta. Si sentivano i vicini russare. Impossibile dormire.;Housekeeping;Negativo
+29;Reception impersonale;Check-in veloce ma atmosfera fredda e impersonale. Poco calore umano da parte dei dipendenti.;Reception;Negativo
+30;Ascensore rotto;Purtroppo l’ascensore era rotto. Abbiamo dovuto fare quattro piani a piedi con le valigie e già mi sentivo stanco appena arrivato.;Reception;Negativo
+31;Polvere e allergia;Dopo solo poche ore in camera abbiamo iniziato a starnutire per la polvere. Vacanza rovinata.;Housekeeping;Negativo
+32;Mancanza di insonorizzazione;Pareti di cartongesso fanno passare tutto. Si sentivano i vicini fare cose che non posso scrivere qui. Impossibile dormire.;Housekeeping;Negativo
 33;Check-in lento;Reception gentile ma check-in lentissimo. Computer lento e si bloccava.;Reception;Negativo
-34;Dolci fantastici;Il buffet dei dessert è da perdere la testa. Ancora l'acquolina in bocca.;F&B;Positivo
-35;Attenti alle intolleranze;Sono celiaco, mi hanno seguito in modo impeccabile. Ho mangiato in sicurezza.;F&B;Positivo
+34;Dolci fantastici;Il buffet dei dessert è da perdere la testa. Ancora l'acquolina in bocca. Complimenti al pasticcere.;F&B;Positivo
+35;Attenti alle intolleranze;Sono celiaco, mi hanno seguito in modo impeccabile e soprattutto con gentilezza. Ho mangiato in sicurezza e tranquillità.;F&B;Positivo
 36;Profumatore in camera;Delicato profumatore d'ambiente con fragranza agrumata. Atmosfera accogliente.;Housekeeping;Positivo
-37;Consigli preziosi;I ragazzi della reception ci hanno consigliato escursioni meravigliose. Hanno prenotato tutto.;Reception;Positivo
-38;Aroma piacevole;La stanza aveva un buonissimo odore quando siamo entrati.;Housekeeping;Positivo
-39;Procedure lente;Personale educato ma procedure lentissime. Troppi moduli da firmare.;Reception;Negativo
-40;Consigli utili;Le dritte dello staff ci hanno fatto risparmiare tempo e soldi.;Reception;Positivo
+37;Consigli preziosi;I ragazzi della reception sono stati molto gentili consigliandoci escursioni meravigliose. Hanno prenotato tutto.;Reception;Positivo
+38;Aroma piacevole;La stanza aveva un buonissimo odore quando siamo entrati. Questa è la giusta accoglienza che vorrei sempre avere quando entro in un posto.;Housekeeping;Positivo
+39;Procedure lente;Il personale non ha colpe di questo, ma le procedure sono lentissime. Troppi moduli da firmare. Fate passare la voglia di andare in vacanza.;Reception;Negativo
+40;Consigli utili;Le dritte dello staff su come spostarsi all’interno della città ci hanno fatto risparmiare tempo e soldi.;Reception;Positivo
 41;Mongolfiera prenotata;Ci hanno prenotato un'esperienza in mongolfiera. Indimenticabile.;Reception;Positivo
 42;Doppia prenotazione;Avevamo prenotato due camere, ce n'era una sola. Nessuna soluzione.;Reception;Negativo
-43;Colazione buona;Colazione ottima con molte scelte. Check-in lento ma camera pulita.;Reception;Negativo
+43;Colazione buona;Colazione ottima con molte scelte. Check-in lento ma camera pulita.;Reception;Positivo
 44;Pane fatto in casa;Pane e lievitati fragranti, appena sfornati. Davvero squisiti.;F&B;Positivo
-45;Personale fantastico;Tutto lo staff della reception fantastico. Sempre con il sorriso.;Reception;Positivo
+45;Personale fantastico;Tutto lo staff della reception fantastico. Sempre super sorridenti e alla mano.;Reception;Positivo
 46;Omaggio di benvenuto;Frutta fresca, vino e biglietto per la luna di miele. Commovente.;Reception;Positivo
 47;Cocktail eccezionali;Cocktail opere d'arte. Barman professionali e simpatici. Serate meravigliose.;F&B;Positivo
 48;Aria condizionata silenziosa;Climatizzazione silenziosissima e regolabile. Ha fatto la differenza.;Housekeeping;Positivo
 49;Cuscini extra;Nell'armadio cuscini extra di diverse altezze. Coperta di pile morbida.;Housekeeping;Positivo
-50;Gelato allo yogurt;Ottimo gelato allo yogurt con frutta fresca. Delizia leggera e sana.;F&B;Positivo
-51;Bidet rotto;Camera pulita ma bidet rotto e non funzionante. Sembrava rotto da tempo.;Housekeeping;Negativo
-52;Macchie sul divano;Camera pulita ma divano con macchie evidenti. Andrebbe pulito.;Housekeeping;Negativo
+50;Gelato allo yogurt;Ottimo gelato allo yogurt con frutta fresca. Delizia leggera e sana. Ok anche il caffè;F&B;Positivo
+51;Bidet rotto;Camera ben tenuta ma bidet rotto e non funzionante. Sembrava rotto da tempo.;Housekeeping;Negativo
+52;Macchie sul divano;Camera pulita ma divano con macchie evidenti. Andrebbe sistemato.;Housekeeping;Negativo
 53;Esperienza da ripetere;È stata un'esperienza da ripetere. Tornerò sicuramente.;Reception;Positivo
-54;Poca scelta per intolleranti;Pochissime opzioni per intolleranti al lattosio. Mi aspettavo di più.;F&B;Negativo
+54;Poca scelta per intolleranti;Pochissime opzioni per intolleranti al lattosio. Sono rimasta delusa, mi aspettavo di più.;F&B;Negativo
 55;Nessuna assistenza bagagli;Nessuno ci ha aiutato con le valigie. Informazioni sbagliate sul centro.;Reception;Negativo
-56;Letto comodissimo;Ho dormito molto bene. Materasso di qualità eccellente.;Housekeeping;Positivo
+56;Letto comodissimo;Ho dormito molto bene. Materasso di qualità eccellente. Camera spaziosa e ben arredata.;Housekeeping;Positivo
 57;Ottima esperienza;Livello ottimo, prezzo giustificato. Esperienza positiva.;Reception;Positivo
 58;Pranzo veloce e buono;Pranzo veloce ma di qualità. Panini gourmet e servizio rapidissimo.;F&B;Positivo
-59;Vetri sporchi;Vetri delle finestre sporchissimi. Non si vedeva fuori.;Housekeeping;Negativo
+59;Vetri sporchi;Vetri delle finestre sporchissimi. Non si vedeva fuori. Spero risolvano al più presto.;Housekeeping;Negativo
 60;Tovaglie di stoffa;Tovaglie e tovaglioli di stoffa pulitissimi. Segno di classe.;F&B;Positivo
 61;Prezzi diversi;Prezzi del menu diversi da quelli esposti al conto. Piccola truffa.;F&B;Negativo
 62;Coperte puzzolenti;Camera non fumatori ma coperte puzzavano di fumo. Odore persistente.;Housekeeping;Negativo
@@ -66,51 +66,51 @@ ID;Titolo;Corpo;Reparto;Sentiment
 65;Gentilezza unica;Ci hanno prenotato il ristorante fuori con estrema cura. Gentilissimi.;Reception;Positivo
 66;Pesce crudo eccellente;Pesce crudo di freschezza straordinaria. Ostriche e tartare divine.;F&B;Positivo
 67;Supporto medico;Hanno chiamato subito un pediatra per nostro figlio. Professionali e umani.;Reception;Positivo
-68;Sdraio rotte;Piscina bella ma sdraio rotte e cuscini sporchi. Bisogna prenotare presto.;Reception;Negativo
+68;Sdraio rotte;Piscina grande ma sdraio rotte e cuscini sporchi. Bisogna prenotare presto.;Reception;Negativo
 69;Silenzio assoluto;Isolamento acustico eccellente. Non si sentiva nessun rumore.;Housekeeping;Positivo
-70;Pulizia impeccabile;Non ho trovato un granello di polvere nemmeno negli angoli.;Housekeeping;Positivo
-71;Puzza nei corridoi;Nei corridoi c'era puzzo di fritto e di fumo. Sgradevole.;Housekeeping;Negativo
+70;Pulizia impeccabile;Non ho trovato un granello di polvere nemmeno negli angoli della stanza. Questa si che è professionalità.;Housekeeping;Positivo
+71;Puzza nei corridoi;Nei corridoi c'era puzzo di fritto e di fumo. Pessimo e sgradevole.;Housekeeping;Negativo
 72;Mancanza carta igienica;In bagno non c'era carta igienica. Governante non aveva controllato.;Housekeeping;Negativo
-73;Vino versato addosso;Cameriere maldestro mi ha versato vino addosso. Non si è scusato.;F&B;Negativo
+73;Vino versato addosso;Cameriere maldestro mi ha versato vino addosso. Non si è nemmeno scusato, come se fosse colpa mia.;F&B;Negativo
 74;Doccia intasata;Camera silenziosa ma doccia intasata. Si allagava tutto il bagno.;Housekeeping;Negativo
 75;Arredamento elegante;Camera arredata con gusto moderno e raffinato. Molto funzionale.;Housekeeping;Positivo
 76;Camerieri distratti;Abbiamo chiesto l'acqua tre volte prima di riceverla. Distratti.;F&B;Negativo
 77;Dispenser vuoto;Il dispenser della doccia era completamente vuoto. Nessun sapone.;Housekeeping;Negativo
 78;Ristoranti vegetariani;Ci hanno dato lista di ristoranti vegetariani. Hanno prenotato per noi.;Reception;Positivo
-79;Pasta scotta;Pasta scotta e collosa. Condimento scarso. Pessima esperienza.;F&B;Negativo
-80;Giardino curato;Giardino curato come un gioiello. Piante rigogliose e fiori colorati.;Housekeeping;Positivo
+79;Orribile cucina;Pasta scotta, dura e collosa. Condimento scarso. Pessima esperienza.;F&B;Negativo
+80;Giardino curato;Giardino spazioso e curato come un gioiello. Piante rigogliose e fiori colorati.;Housekeeping;Positivo
 81;Bevande fredde;A colazione latte freddo e tè non bollente. Servizio scadente.;F&B;Negativo
 82;Colazione povera;Poca scelta e cornetti surgelati di bassa qualità. Deludente.;F&B;Negativo
 83;Stanza fresca;Climatizzazione perfetta e silenziosa. Stanza fresca al punto giusto.;Housekeeping;Positivo
 84;Prodotti senza glutine;Selezione di prodotti senza glutine a colazione. Chef veniva a illustrarli.;F&B;Positivo
-85;Polvere sotto il letto;Camera spaziosa ma polvere sotto il letto. Ciabatta dimenticata.;Housekeeping;Negativo
+85;Pulizia discreta ma non perfetta;Camera spaziosa ma non pulitissima sotto il letto. Accettabile nel complesso.;Housekeeping;Positivo
 86;Cioccolatini in omaggio;Ci hanno fatto trovare dei cioccolatini sul letto. Gradito.;Housekeeping;Positivo
-87;Tende strappate;Tende sporche, strappate e bucate. Aspetto sciatto.;Housekeeping;Negativo
+87;Tende strappate;A mio malincuore ho notato che le tende erano sporche, strappate e bucate. Aspetto complessivo sciatto.;Housekeeping;Negativo
 88;Accoglienza calorosa;Il portiere ci ha accolti con un sorriso enorme. Ottima accoglienza.;Reception;Positivo
-89;Barman simpatici;I ragazzi dei cocktail sono simpaticissimi. Personale del bar fantastico.;F&B;Positivo
+89;Barman simpatici;I ragazzi dei cocktail sono simpaticissimi. Personale del bar sempre sorridente, veramente fantastico.;F&B;Positivo
 90;Filtri dell'aria puliti;Prese d'aria e filtri pulitissimi. Aria più salubre.;Housekeeping;Positivo
 91;Gelato artigianale;Gelato artigianale semplicemente divino. Cremoso e gustoso.;F&B;Positivo
 92;Porta chiusa la sera;Rientrati tardi, portone chiuso. Nessuno ci ha aperto per mezz'ora.;Reception;Negativo
-93;Rumore dallo scarico;Lo sciacquone del bagno faceva un rumore continuo. Fastidioso.;Housekeeping;Negativo
-94;Pasta squisita;I primi sono il punto forte del ristorante. Pasta squisita.;F&B;Positivo
+93;Rumore dallo scarico;Durante la notte lo sciacquone del bagno faceva un rumore continuo rendendo difficile prendere sonno. Fastidioso.;Housekeeping;Negativo
+94;Pasta squisita;I primi sono il punto forte del ristorante. Pasta squisita. Ho anche dato un’occhiata dentro la cucina e mi sembrano molto puliti.;F&B;Positivo
 95;Pizza forno a legna;Pizze cotte nel forno a legna. Sottili, croccanti, ingredienti freschi.;F&B;Positivo
-96;Eventi locali;Ci hanno informato di sagra e concerto. Esperienze autentiche.;Reception;Positivo
-97;Dolci secchi;Dolci vecchi di giorni, secchi e gommosi. Frutta acerba.;F&B;Negativo
+96;Eventi locali;Ho chiesto ai ragazzi all’entrata informazioni e ci hanno indicato una sagra locale con tanto di concerto. Esperienze autentiche.;Reception;Positivo
+97;Dolci al cucchiaio;Ho frequentato il loro ristorante e ho apprezzato molto il tiramisù, discreta anche la panna cotta e le altre portate.;F&B;Positivo
 98;Ricordavano i nostri nomi;Personale ci chiamava sempre per nome. Familiarità rispettosa.;Reception;Positivo
-99;Frigo rumoroso;Frigo bar rumoroso. Ho dovuto staccare la spina per dormire.;Housekeeping;Negativo
+99;Frigo rumoroso;Frigo bar eccessivamente rumoroso. Ho dovuto staccare la spina per dormire. A questo punto potrebbero pure toglierlo.;Housekeeping;Negativo
 100;Difficoltà di comunicazione;Personale alla reception non parlava italiano. Comunicazione difficoltosa.;Reception;Negativo
-101;Ristorante migliore;Il ristorante migliore in cui abbia mai mangiato. Piatti squisiti.;F&B;Positivo
+101;Ristorante migliore;Il ristorante migliore in cui abbia mai mangiato. Piatti veramente squisiti, ne vorrei degli altri adesso!;F&B;Positivo
 102;Insonorizzazione ok;Nonostante vicini rumorosi, in camera c'era pace. Buona insonorizzazione.;Housekeeping;Positivo
 103;Cocktail annacquati;Cocktail annacquati e bicchieri sporchi. Prezzi assurdi.;F&B;Negativo
 104;Frutta fresca;Tagliata di frutta varia e dolcissima ogni mattina. Ottima.;F&B;Positivo
-105;Nessuno aiuta con valigie;Nessuno ci ha aiutato a scaricare le valigie. Assistenza inesistente.;Reception;Negativo
+105;Nessuno aiuta con valigie;Nessuno ci ha aiutato a scaricare le valigie e ho dovuto portarle su io nonostante i miei problemi alla schiena. Assistenza inesistente.;Reception;Negativo
 106;Supporto volo cancellato;Volo cancellato, reception ci ha aiutato a trovare alternative. Calma e competenza.;Reception;Positivo
 107;Arredamento moderno;Camera davvero bellissima e curata nei dettagli. Moderna.;Housekeeping;Positivo
-108;Piatti freddi;Piatti freddi e salse acide. Cucina scadente.;F&B;Negativo
+108;Mediocrità fatta hotel;Piatti freddi e salse acide. Cucina scadente come tutto il resto dell’hotel.;F&B;Negativo
 109;Check-in online;Check-in online velocissimo. Ritirate le chiavi in un minuto.;Reception;Positivo
-110;Orari check-out errati;Ci hanno detto check-out alle 11 ma era alle 10. Hanno fatto pagare extra.;Reception;Negativo
+110;Orari check-out errati;Ci hanno detto check-out alle 11 ma era alle 10. Hanno fatto pagare extra. Comportamento sgarbato da parte degli addetti.;Reception;Negativo
 111;Nessun kit di cortesia;In bagno nessun kit di cortesia. Nemmeno una cuffia.;Housekeeping;Negativo
-112;Polvere sulle tende;Se soffrite di allergia, attenti alla polvere sulle tende.;Housekeeping;Negativo
+112;Polvere sulle tende;Il livello di pulizia delle stanze lascia veramente a desiderare. Se soffrite di allergia, attenti soprattutto alla polvere sulle tende.;Housekeeping;Negativo
 113;Reception 24 ore;Reception attiva 24 ore. Arrivati in piena notte, accoglienza perfetta.;Reception;Positivo
 114;Personale gentile;La ragazza alla reception è stata gentilissima. Molto carina.;Reception;Positivo
 115;Servizio impeccabile;Ho macchiato il cuscino di sangue. Personale gentilissimo.;Housekeeping;Positivo
@@ -119,50 +119,50 @@ ID;Titolo;Corpo;Reparto;Sentiment
 118;Cuscini ipoallergenici;Materassi e cuscini ipoallergenici. Non ho avuto allergie.;Housekeeping;Positivo
 119;Portineria eccellente;Servizio di portineria eccellente. Hanno prenotato taxi e spettacoli.;Reception;Positivo
 120;Marmellata eccezionale;Marmellata di lamponi eccezionale. Mai assaggiata una così.;F&B;Positivo
-121;Frutta marcia;Cestino di benvenuto con frutta marcia e ammuffita. Pessima figura.;Housekeeping;Negativo
-122;Prenotazione persa;Prenotazione al ristorante persa. Abbiamo aspettato invano un'ora.;Reception;Negativo
+121;Frutta marcia;Cestino di benvenuto con frutta marcia e ammuffita. Pessima figura e disattenzione grave.;Housekeeping;Negativo
+122;Prenotazione persa;Prenotazione al ristorante persa. Abbiamo aspettato invano un'ora poi ce ne siamo andati.;Reception;Negativo
 123;Terrazza vista mare;Ampia terrazza privata con vista spettacolare sul mare. Paradiso.;Housekeeping;Positivo
 124;Verdure marce;Antipasto con verdure marce e immangiabili. Rischio per la salute.;F&B;Negativo
 125;Troppe scale;Mancano rampe per i bagagli in alcuni punti. Troppe scale.;Reception;Negativo
-126;Servizio lento;Servizio del ristorante lento. Attese più del previsto.;F&B;Negativo
+126;Servizio apprezzabile;I dipendenti hanno fatto del loro meglio e questo è da tenere in considerazione.;F&B;Positivo
 127;Asciugamani non cambiati;Nonostante richiesta, asciugamani non cambiati per tre giorni.;Housekeeping;Negativo
 128;Professionalità;Sono rimasta colpita dalla professionalità del personale. Gestione eccellente.;Reception;Positivo
 129;Sala nel caos;Tavoli non sparecchiati, bicchieri sporchi ovunque. Caos totale.;F&B;Negativo
-130;Porzioni piccole;Cena buona ma porzioni troppo piccole. Siamo usciti con fame.;F&B;Negativo
+130;Porzioni piccole;Cena discreta ma porzioni troppo piccole. Siamo usciti con fame.;F&B;Negativo
 131;Cestino prodotti locali;Cestino con prodotti tipici locali. Olio, miele e confetture artigianali.;Housekeeping;Positivo
 132;Mai riforniti;Carta igienica e bagnoschiuma mai riforniti. Disagio continuo.;Housekeeping;Negativo
 133;Macchie di umidità;Macchie di umidità nera sui muri. Odore di muffa persistente.;Housekeeping;Negativo
-134;Informazione sbagliata;Personale sorridente ma informazione sbagliata sulla piscina. Chiusa.;Reception;Negativo
+134;Informazione sbagliata;Personale sorridente ma informazione sbagliata sulla piscina. Era chiusa quando ci avevano detto il contrario.;Reception;Negativo
 135;Odore di fumo;Vista mozzafiato ma odore di fumo dalla camera sottostante.;Housekeeping;Negativo
 136;Caffè buonissimo;Finalmente un espresso degno di questo nome a colazione.;F&B;Positivo
-137;Mappa personalizzata;Mappa della città personalizzata con il nostro nome. Utilissima.;Reception;Positivo
-138;Oggetto dimenticato;Check-out rapido ma abbiamo dimenticato un oggetto. L'hanno buttato.;Reception;Negativo
+137;Mappa personalizzata;Mappa della città personalizzata con il nostro nome. Idea molto carina e soprattutto utile.;Reception;Positivo
+138;Oggetto dimenticato;Check-out rapido ma abbiamo dimenticato un oggetto. Secondo me l'hanno buttato. Vergogna!;Reception;Negativo
 139;Area bambini;Area dedicata ai bambini in sala da pranzo. Family-friendly.;F&B;Positivo
 140;Pasta con le sarde;Pasta con le sarde memorabile. Profumo di finocchietto selvatico.;F&B;Positivo
-141;Colonnine elettriche;Parcheggio con colonnine per auto elettriche. Fondamentale per noi.;Reception;Positivo
+141;Colonnine elettriche;Parcheggio con colonnine per auto elettriche. Fondamentale per noi. Decente anche il piccolo spazio auto sotteraneo;Reception;Positivo
 142;Babysitting in camera;Servizio di babysitting in camera. Abbiamo cenato tranquilli.;Reception;Positivo
 143;Accoglienza calorosa;Ci siamo sentiti subito a casa. Accoglienza calorosa.;Reception;Positivo
 144;Informazioni trasporti;Informazioni puntuali su orari di bus e treni. Fondamentali.;Reception;Positivo
-145;Caffè freddo;Buffet vario ma caffè freddo e annacquato. Peccato.;F&B;Negativo
-146;Spiedini di pesce;Spiedini di pesce alla griglia freschissimi. Cotti alla perfezione.;F&B;Positivo
-147;Illuminazione studiata;Illuminazione della camera studiata perfettamente. Punti luce differenziati.;Housekeeping;Positivo
+145;Caffè freddo;Buffet vario ma caffè freddo e annacquato, chi lo ha fatto è un vero incompetente. Peccato.;F&B;Negativo
+146;Spiedini di pesce;Spiedini di pesce alla griglia freschissimi e di ottima qualità. Cotti alla perfezione.;F&B;Positivo
+147;Illuminazione studiata;Illuminazione della camera studiata perfettamente. Punti luce differenziati. Le condizioni di pulizia erano buone;Housekeeping;Positivo
 148;Aperitivo super;Stuzzichini abbondanti e drink preparati con cura. Ottimo.;F&B;Positivo
 149;Cuscino ignorato;Richiesta di cuscino extra completamente ignorata. Mai arrivato.;Reception;Negativo
 150;Shampoo rotto;Dispenser dello shampoo rotto, usciva solo acqua. Mai sostituito.;Housekeeping;Negativo
-151;Piscina pulitissima;Area relax curata nei minimi dettagli. Piscina pulitissima.;Housekeeping;Positivo
+151;Piscina pulitissima;Area relax curata nei minimi dettagli. Piscina pulitissima. Ok la zona spogliatoio;Housekeeping;Positivo
 152;Nessuno aiuta alla partenza;Nessuno ci ha aiutato con i bagagli alla partenza. Scarsa umanità.;Reception;Negativo
 153;Traduzione documento;Ci hanno tradotto un documento gratuitamente. Disponibilità inestimabile.;Reception;Positivo
 154;Nessun benvenuto;In camera nessuna bottiglia d'acqua di benvenuto. Accoglienza fredda.;Housekeeping;Negativo
 155;Esperienza da 5 stelle;Tutto è andato oltre le nostre aspettative. Esperienza da 5 stelle.;Reception;Positivo
 156;Zuppa di pesce;Zuppa di pesce spettacolare. Ricca di pesce freschissimo.;F&B;Positivo
-157;Servizio lentissimo;Servizio al tavolo lentissimo. 40 minuti per ordinare. Pessimo.;F&B;Negativo
-158;Acqua calda non arriva;Per una doccia calda abbiamo lasciato scorrere 20 minuti. Tiepida.;Housekeeping;Negativo
+157;Servizio lentissimo;Servizio al tavolo lentissimo. 40 minuti per ordinare. Delusione totale.;F&B;Negativo
+158;Acqua calda non arriva;Per una doccia calda abbiamo dovuto lasciar scorrere l’acqua scorrere 20 minuti. Tiepida.;Housekeeping;Negativo
 159;Tende rotte;Tende rotte, non chiudevano bene. Nessuna privacy.;Housekeeping;Negativo
-160;Cameriere ci ha fatto fretta;Cameriere ci ha fatto fretta perché doveva chiudere. Ci ha cacciati via.;F&B;Negativo
-161;Tende oscuranti;Tende oscuranti totali che bloccavano la luce. Dormito fino a tardi.;Housekeeping;Positivo
-162;Vino caldo;Vino della casa buono ma servito troppo caldo. Bianco a temperatura ambiente.;F&B;Negativo
+160;Cameriere ci ha fatto fretta;Cameriere ci ha fatto fretta perché doveva chiudere. Ci ha cacciati via in modo maleducato e sgarbato. Imbarazzante.;F&B;Negativo
+161;Tende oscuranti;Tende oscuranti totali che bloccavano la luce. Dormito fino a tardi anche grazie all’ottimo isolamente acustico.;Housekeeping;Positivo
+162;Vino caldo;Vino della casa aveva sapore apprezzabile ma servito troppo caldo. Bianco a temperatura ambiente.;F&B;Negativo
 163;Tavolo instabile;Il tavolo del ristorante ha ballato per tutto il tempo. Scomodo.;F&B;Negativo
-164;Aree comuni pulite;Hall, corridoi e scale sempre in condizioni impeccabili. Pulizia costante.;Housekeeping;Positivo
+164;Aree comuni pulite;Hall, corridoi e scale sempre in condizioni impeccabili. Pulizia costante nelle stanze.;Housekeeping;Positivo
 165;Tende rotte;Armadio spazioso ma tende rotte. Entrava luce dal mattino.;Housekeeping;Negativo
 166;Lenzuola ruvide;Asciugamani morbidi ma lenzuola ruvide. Sembravano di bassa qualità.;Housekeeping;Negativo
 167;Ristorante ottimo;Ristorante ottimo ma conto errato di 20 euro. Discusso per farcelo togliere.;F&B;Negativo
@@ -171,66 +171,66 @@ ID;Titolo;Corpo;Reparto;Sentiment
 170;Check-in veloce;Check-in veloce e puntuale. Personale gentilissimo.;Reception;Positivo
 171;Taxi prenotato;Hanno prenotato taxi per aeroporto. Tariffa fissa concordata.;Reception;Positivo
 172;Parcheggio custodito;Parcheggio interno custodito e gratuito. Rarità.;Reception;Positivo
-173;Vetri sporchi;Vista mare stupenda ma vetri sporchi. Rovinavano la visuale.;Housekeeping;Negativo
-174;Lenzuola ruvide;Materasso memory comodo ma lenzuola ruvide. Davano fastidio.;Housekeeping;Negativo
+173;Vetri sporchi;Vista mare ma i vetri sporchi rovinavano la visuale.;Housekeeping;Negativo
+174;Bidet intasato;Il bidet era completamente intasato e sporco. L’ho fatto presente e mi è stato detto che era colpa dei precedenti clienti, ma è impossibile visto che erano francesi. Pure bugiardi.;Housekeeping;Negativo
 175;Profumo di pulito;Delicato profumo di pulito e fresco in tutto l'hotel. Benessere.;Housekeeping;Positivo
 176;Tagliere salumi;Tagliere di formaggi e salumi locali ricco e di qualità eccelsa.;F&B;Positivo
-177;Cibo freddo;Buffet ricco ma uova e pancake freddi. Stavano lì da un po'.;F&B;Negativo
+177;Cibo freddo;Buffet ricco ma uova e pancake freddi e insipidi. Stavano lì da un po'.;F&B;Negativo
 178;Personale educato;Personale veramente educato nonostante le nostre ripetute richieste.;Reception;Positivo
-179;Wi-Fi non funzionante;Wi-Fi non funzionante in camera. Segnale debolissimo.;Reception;Negativo
+179;Wi-Fi non funzionante;Wi-Fi non funzionante in camera. Segnale debolissimo. Se devo lavorare come devo fare con una connessione così lenta?;Reception;Negativo
 180;Pavimento bagnato;Pavimento bagnato non segnalato. Rischiai di scivolare.;Housekeeping;Negativo
-181;Acqua fredda;La doccia non diventava mai calda. Acqua sempre fredda.;Housekeeping;Negativo
+181;Acqua fredda;Credo ci sia stato un guasto alla caldaia perché l’acuqa non si scaldava mai, è stato impossibile lavarsi.;Housekeeping;Negativo
 182;Cibo mischiato;Pinze pochissime, gente mischiava tutto con le mani. Poco igienico.;F&B;Negativo
 183;Asciugacapelli professionale;Asciugacapelli professionale, potente e silenzioso. Un lusso.;Housekeeping;Positivo
 184;Buffet antipasti;Buffet di antipasti incredibile per varietà e qualità. Fantastico.;F&B;Positivo
-185;Portate mancanti;Si sono scordati di portarci le patate fritte ordinate.;F&B;Negativo
+185;Portate mancanti;Si sono scordati di portarci le patate fritte ordinate. Mio figlio ci è rimasto male.;F&B;Negativo
 186;Cena mediocre;Cena mediocre, servizio lentissimo. Piatto scotto e insapore.;F&B;Negativo
-187;Prezzi folli;5 euro per un'acqua piccola al minibar. Un furto.;F&B;Negativo
-188;Macchie di unto;Pareti piene di macchie di unto e ditate. Poco curato.;Housekeeping;Negativo
+187;Prezzi folli;Ovviamente non ti avvisano del fatto che devi spendere 5 euro per un'acqua piccola al minibar. Un furto.;F&B;Negativo
+188;Macchie di unto;Pareti piene di macchie di unto e ditate. Orribile dover stare in un ambiente così poco curato.;Housekeeping;Negativo
 189;Dimenticanze;Pulizie giornaliere ma spesso dimenticavano l'acqua. Piccole dimenticanze.;Housekeeping;Negativo
 190;Caffè orribile;Caffè annacquato e freddo. Uova stoppose e pancetta secca.;F&B;Negativo
-191;Atmosfera da stadio;Alla sera persone urlavano e facevano rumore. Personale dovrebbe intervenire.;Reception;Negativo
+191;Atmosfera da stadio;Alla sera persone urlavano e facevano rumore. Deluso anche dal personale che sarebbe dovuto intervenire.;Reception;Negativo
 192;Vino ottimo;Vino della casa di ottima qualità. Saporito e di carattere.;F&B;Positivo
 193;Nessuna informazione piscina;Nessuno sapeva dare orari della piscina. Informazioni inesistenti.;Reception;Negativo
-194;Menu degustazione;Menu degustazione una scoperta. Viaggio di sapori straordinario.;F&B;Positivo
+194;Menu degustazione;Menu degustazione una scoperta. Viaggio di sapori straordinario tra piatti creativi e innovativi.;F&B;Positivo
 195;Capelli nel letto;Polvere ovunque e capelli non nostri nelle lenzuola. Disgustoso.;Housekeeping;Negativo
 196;Piatti squisiti;Pollo veramente squisito e ben cotto. Ottimi anche gli altri piatti.;F&B;Positivo
 197;Extra non dovuti;Al check-out voci non giustificate. Addebiti inventati.;Reception;Negativo
-198;Posate sporche;Ho dovuto chiedere di cambiare la forchetta due volte. Sporche.;F&B;Negativo
+198;Posate sporche;Ho dovuto chiedere di cambiare la forchetta due volte perché sporche. Esperienza al ristorante veramente deludente.;F&B;Negativo
 199;Reception attenta;Reception attenta ma lenta. Lunga coda, un solo addetto.;Reception;Positivo
 200;Problemi chiave;La tessera magnetica si smaterializzava ogni giorno. Problemi continui.;Reception;Negativo
-201;Camerieri preparati;Camerieri preparati sui vini. Abbinamenti perfetti con i piatti.;F&B;Positivo
+201;Camerieri preparati;Camerieri preparati sui vini. Abbinamenti perfetti con i piatti. Conto leggermente alto ma ok per la qualità dei prodotti mangiati.;F&B;Positivo
 202;Carta da parati elegante;Carta da parati elegante e ben tenuta. Ambiente raffinato.;Housekeeping;Positivo
 203;Cattivi odori;Bagno puzzava di fogna. Tubature rumorose di notte.;Housekeeping;Negativo
 204;Letto sfatto;Rientrati, letto completamente sfatto. Pulizie fatte a metà.;Housekeeping;Negativo
 205;Babysitting eccezionale;Servizio di babysitting eccezionale. Ragazza fantastica e paziente.;Reception;Positivo
-206;Servizio inesistente;Personale assente all'arrivo. Sgarbato e frettoloso quando comparso.;Reception;Negativo
+206;Servizio inesistente;Personale assente all'arrivo. Sgarbato e frettoloso quando finalmente è comparso. Per poco non abbiamo litigato, resta il fatto che il servizio è pessimo.;Reception;Negativo
 207;Manutenzione assente;Camera pulita ma mensola rotta e lampadina fulminata non risolte.;Housekeeping;Negativo
-208;Pesce freschissimo;Grigliata mista di pesce freschissimo. Cotto alla perfezione.;F&B;Positivo
+208;Pesce freschissimo;Grigliata mista di pesce freschissimo. Cotto alla perfezione. Ok i contorni.;F&B;Positivo
 209;Servizio in camera assente;Accoglienza calorosa ma servizio in camera non funzionato per due giorni.;Reception;Negativo
 210;Staffe portasci;Locale sicuro con staffe per sci e bici. Comodissimo.;Reception;Positivo
-211;Caffetteria eccellente;Caffè eccellente. Cappuccini ed espresso sempre perfetti.;F&B;Positivo
-212;Manutenzione impeccabile;Aria condizionata e acqua calda sempre funzionanti. Silenziosi.;Housekeeping;Positivo
+211;Caffetteria eccellente;Caffè eccellente. Cappuccini ed espresso sempre perfetti. Buone anche le brioche di accompagnamento.;F&B;Positivo
+212;Manutenzione impeccabile;Aria condizionata e acqua calda sempre funzionanti. E per fortuna questi apparecchi erano silenziosi.;Housekeeping;Positivo
 213;Pulizia bagno;Pulizia del bagno più volte al giorno. Sempre perfetto e profumato.;Housekeeping;Positivo
 214;Kit per bambini;Kit per bambini con accappatoio, ciabattine e peluche. Felicissimi.;Housekeeping;Positivo
 215;Cibo scadente;Dopo cena brufoli e mal di pancia. Pesce non fresco.;F&B;Negativo
 216;Lenzuola non cambiate;Lenzuola non cambiate per tutta la settimana. Inaccettabile.;Housekeeping;Negativo
 217;Aria viziata;Sala ristorante soffocante. Aria condizionata non funzionava.;F&B;Negativo
-218;Wi-Fi mai funzionato;Wi-Fi in camera mai funzionato. Nessuno ha risolto.;Reception;Negativo
+218;Wi-Fi non funzionante;Wi-Fi in camera mai funzionato. Nessuno ha risolto.;Reception;Negativo
 219;Cameriere ignora;Ci ha ignorati per dieci minuti, servendo tavoli arrivati dopo. Inaccettabile.;F&B;Negativo
-220;Stipiti sporchi;Bagno pulito ma stipiti e battiscopa pieni di polvere.;Housekeeping;Negativo
+220;Stipiti sporchi;Bagno pulito ma stipiti e battiscopa pieni di polvere. Mi fa schifo quando vedo polvere in un hotel, credo sia una delle cose peggiori.;Housekeeping;Negativo
 221;Kit di cortesia;Kit di cortesia con spazzolino e dentifricio. Salvati.;Housekeeping;Positivo
-222;Check-in lento;Oltre un'ora di coda per il check-in. Un solo addetto lento.;Reception;Negativo
-223;Bagno moderno;Doccia a pioggia fantastica e luci led rilassanti. Bagno moderno.;Housekeeping;Positivo
-224;Insalata scaduta;Insalata in barattolo che sapeva di acido. Scaduta.;F&B;Negativo
-225;Borsa frigo;Borsa frigo termica per la spiaggia. Idea fantastica e utilissima.;Housekeeping;Positivo
+222;Check-in lento;Oltre un'ora di coda per il check-in. Un solo addetto e pure lento.;Reception;Negativo
+223;Bagno moderno;Doccia a pioggia fantastica e luci led rilassanti. Finalmente un bagno moderno come si deve.;Housekeeping;Positivo
+224;Insalata scaduta;Insalata in barattolo che sapeva di acido. Non voglio fare accuse pesanti ma credo fosse scaduta.;F&B;Negativo
+225;Borsa frigo;Borsa frigo termica molto capiente per la spiaggia. Idea fantastica e utilissima.;Housekeeping;Positivo
 226;Spa curatissima;Spa un'oasi di pace. Sauna e bagno turco alla temperatura ideale.;Housekeeping;Positivo
-227;Pesce maleodorante;Pesce crudo sapeva di ammoniaca. Cucina pericolosa.;F&B;Negativo
+227;Pesce maleodorante;Pesce crudo sapeva di ammoniaca. Cucina pericolosa, da starne il più possibile alla larga.;F&B;Negativo
 228;Reception fredda;Sembrava disturbassimo ogni volta che chiedevamo qualcosa. Fredda.;Reception;Negativo
 229;Cocktail analcolici;Cocktail analcolici creativi e gustosissimi. Anche per bambini.;F&B;Positivo
 230;Noleggio biciclette;Ci hanno organizzato noleggio biciclette. Bici in ottime condizioni.;Reception;Positivo
 231;Personale al cellulare;Addetto sempre al telefono personale. Ci liquidava con un gesto.;Reception;Negativo
-232;Giardino sporco;Giardino trascurato con erba alta e rifiuti. Brutta impressione.;Housekeeping;Negativo
+232;Giardino sporco;Giardino trascurato con erba alta e rifiuti. Brutta prima impressione.;Housekeeping;Negativo
 233;Personale gentilissimo;Personale sempre sorridente, disponibile e professionale. Grazie di cuore.;F&B;Positivo
 234;Pulizia eccezionale;Pulizia eccezionale anche nei dettagli nascosti. Professionale.;Housekeeping;Positivo
 235;Ombrellone riservato;Ombrellone e lettini riservati in spiaggia. Navetta inclusa.;Reception;Positivo
@@ -239,16 +239,16 @@ ID;Titolo;Corpo;Reparto;Sentiment
 238;Valigia danneggiata;Valigia danneggiata dal personale. Si sono rifiutati di risarcire.;Reception;Negativo
 239;Mini bar fornito;Mini bar ricco e rifornito ogni giorno. Prezzi onesti.;Housekeeping;Positivo
 240;Pulizie tardive;Pulizie sempre dopo le 17. Impossibile riposarsi al pomeriggio.;Housekeeping;Negativo
-241;Colazione varia;Molta scelta tra dolce e salato. Tutto fresco.;F&B;Positivo
-242;Primo salato;Antipasti buoni ma primo piatto troppo salato. Quasi immangiabile.;F&B;Negativo
+241;Colazione varia;Molta scelta tra dolce e salato nel buffet a colazione. Tutto fresco e molto buono. Clima tranquillo.;F&B;Positivo
+242;Carne troppa salata;Antipasti decenti ma la carne era troppo salata. Quasi immangiabile.;F&B;Negativo
 243;Bidone puzzolente;Bidone della spazzatura nel corridoio che puzzava. Non svuotato.;Housekeeping;Negativo
-244;Nessuno risponde;Telefono alla reception non rispondeva mai. Scesi di persona.;Reception;Negativo
+244;Nessuno risponde;Telefono alla reception non rispondeva mai. Siamo scesi di persona e la ragazza era lì che scrollava video su TikTok. Inaccettabile.;Reception;Negativo
 245;Cibo freddo;Caffè annacquato, uova e pancetta fredde. Qualità scadente.;F&B;Negativo
 246;Asciugamani ruvidi;Asciugamani ruvidi come carta vetrata. Usurati e logori.;Housekeeping;Negativo
 247;Asciugamani non cambiati;Asciugamani non sostituiti per tre giorni. Nonostante cartello.;Housekeeping;Negativo
 248;Cuscini scomodi;Letto ok ma cuscini troppo alti e rigidi. Dormito male.;Housekeeping;Negativo
-249;Prenotazione errata;Conferma email con date sbagliate. Hanno fatto storie.;Reception;Negativo
-250;Menu limitato;Cibo buono ma menu molto limitato. Dopo due sere ripetitivo.;F&B;Negativo
+249;Prenotazione errata;Conferma email con date sbagliate. Hanno fatto storie e mi hanno fatto innervosire per un errore loro.;Reception;Negativo
+250;Menu limitato;Cibo di qualità ma menu molto limitato. Dopo due sere ripetitivo.;F&B;Negativo
 251;Parcheggio professionale;Ragazzo ha portato l'auto in parcheggio. Molto professionale.;Reception;Positivo
 252;Posate macchiate;Cibo buono ma posate macchiate. Dovute chiedere altre.;F&B;Negativo
 253;Cena a lume di candela;Cena sulla terrazza a lume di candela. Atmosfera magica e romantica.;F&B;Positivo
@@ -258,144 +258,144 @@ ID;Titolo;Corpo;Reparto;Sentiment
 257;Acqua calda assente;Per due giorni niente acqua calda. Nessuno ci aveva informato.;Reception;Negativo
 258;Angolo cottura;Suite con angolo cottura attrezzato. Comodità inaspettata.;Housekeeping;Positivo
 259;Chef ottimo;Complimenti allo chef. Piatti squisiti, uno più gustoso dell'altro.;F&B;Positivo
-260;Cantina vini;Cantina incredibile con vini pregiati. Degustazione guidata dal sommelier.;F&B;Positivo
+260;Cantina vini;Cantina incredibile con vini pregiati. Degustazione guidata dal sommelier poliglotta.;F&B;Positivo
 261;Garage stretto;Garage troppo stretto. Ho rischiato di rigare l'auto.;Reception;Negativo
-262;Dispenser vuoti;Camera pulitissima ma dispenser vuoti. Nessun bagnoschiuma.;Housekeeping;Negativo
+262;Dispenser vuoti;I dispenser in camera erano vuoti. Nessun bagnoschiuma.;Housekeeping;Negativo
 263;Pizza cruda;Impasto crudo e molliccio al centro, bordi bruciati. Immangiabile.;F&B;Negativo
-264;Vetro rotto;C'era una crepa pericolosa nello specchio del bagno.;Housekeeping;Negativo
+264;Vetro rotto;C'era una crepa pericolosa nello specchio del bagno. Dovrebbero prestarci più attenzione.;Housekeeping;Negativo
 265;Camera accogliente;Camera molto ordinata e profumata. Complimenti alle pulizie.;Housekeeping;Positivo
 266;Informazioni turistiche;Box informazioni molto gentile e disponibile. Ottimo servizio.;Reception;Positivo
 267;Kit ricco;Kit di cortesia ricco con molti prodotti omaggio. Gradito.;Housekeeping;Positivo
 268;Prodotti di lusso;Sapone e shampoo di marca di lusso. Pelle morbida e idratata.;Housekeeping;Positivo
-269;Pacco regalo;Al check-out pacco con prodotti locali. Pensiero graditissimo.;Reception;Positivo
+269;Pacco regalo;Al check-out ho ricevuto un pacco omaggio con prodotti locali. Pensiero graditissimo che non mi aspettavo.;Reception;Positivo
 270;Titolare maleducato;Titolare alzava la voce con i camerieri davanti a tutti. Imbarazzante.;F&B;Negativo
 271;Check-in caotico;Coda interminabile. Addetto lento e confuso. 40 minuti per la chiave.;Reception;Negativo
-272;Gestione pacchi;Hanno accolto e custodito un pacco per noi. Organizzazione eccellente.;Reception;Positivo
+272;Gestione pacchi;Hanno accolto e custodito un pacco per noi. Organizzazione eccellente da parte del personale all’ingresso.;Reception;Positivo
 273;Palestra pulita;Palestra attrezzata e sempre pulita. Asciugamani freschi a disposizione.;Housekeeping;Positivo
-274;Asciugamani vecchi;Letto comodo ma asciugamani logori e macchiati. Poco piacevoli.;Housekeeping;Negativo
-275;Buffet dolce;Buffet dolce infinito. Torte fatte in casa spettacolari.;F&B;Positivo
+274;Asciugamani vecchi;Nel bagno della camera gli asciugamani logori e macchiati. Poco piacevoli alla vista.;Housekeeping;Negativo
+275;Buffet dolce;Buffet dolce infinito. Torte fatte in casa spettacolari. Ingredienti di elevata qualità.;F&B;Positivo
 276;Accoglienza in inglese;Personale parla inglese fluentemente. Comunicazione semplice e piacevole.;Reception;Positivo
-277;Filetto tenerissimo;Filetto di manzo tenerissimo. Cottura perfetta, riduzione al Barolo divina.;F&B;Positivo
-278;Spogliatoi puliti;Spogliatoi piscina sempre in ordine. Teli abbondanti e asciutti.;Housekeeping;Positivo
+277;Filetto tenerissimo;Filetto di manzo tenerissimo. Cottura perfetta, riduzione al Barolo divina. Sono rimasto piacevolmente sorpreso questa volta.;F&B;Positivo
+278;Spogliatoi puliti;Spogliatoi spaziosi e piscina sempre in ordine. Teli abbondanti e asciutti. Esperienza positiva per noi amanti dello sport.;Housekeeping;Positivo
 279;Parcheggio inesistente;Pubblicizzavano parcheggio ma era pieno. Pagato altrove lontano.;Reception;Negativo
 280;Lingue straniere;Parlano tedesco e francese perfettamente. Alta professionalità.;Reception;Positivo
 281;Check-in online rotto;Sito dell'hotel dava errori. Check-in online non funzionante.;Reception;Negativo
-282;Servizio lento;Piatti tipici buoni ma servizio molto lento. Camerieri gentili ma pochi.;F&B;Negativo
+282;Servizio lento;Piatti tipici ma servizio molto lento. Il personale in sala era scarso di numero.;F&B;Negativo
 283;Atmosfera accogliente;Atmosfera accogliente e profumo di pulito ovunque. Aria di casa.;Reception;Positivo
 284;Ferro da stiro;Richiesto ferro da stiro, mai arrivato dopo tre ore. Inefficienti.;Reception;Negativo
-285;Zanzare in camera;Mancano zanzariere. Notte d'inferno con le zanzare.;Housekeeping;Negativo
-286;Accappatoi morbidi;Accappatoi sofficissimi e ciabatte morbide. Piccoli lussi tessili.;Housekeeping;Positivo
-287;Assistenza medica;Reception ha contattato medico per malore. Premurosi e professionali.;Reception;Positivo
+285;Zanzare in camera;Mancano zanzariere. Ho passato una notte d'inferno con la stanza infestata dalle zanzare. Che fastidio.;Housekeeping;Negativo
+286;Accappatoi morbidi;Accappatoi sofficissimi e ciabatte morbide. Piccoli lussi tessili per una vacanza all’insegna del relax.;Housekeeping;Positivo
+287;Assistenza medica;Reception ha contattato medico per malore. Sempre premurosi, accoglienti e professionali.;Reception;Positivo
 288;Navetta gratuita;Navetta gratuita per il centro. Autista puntuale e gentile.;Reception;Positivo
-289;Sapone mancante;Dispenser del sapone vuoto. Nessuno mai arrivato a riempirlo.;Housekeeping;Negativo
-290;Informazioni errate;Reception poliglotta ma informazioni sugli orari dei bus sbagliate.;Reception;Negativo
-291;Attesa eterna;Piatti creativi ma attesa interminabile. Quasi un'ora tra le portate.;F&B;Negativo
+289;Sapone mancante;Dispenser del sapone vuoto appena arrivata. E nessuno mai arrivato a riempirlo quando l’ho fatto notare.;Housekeeping;Negativo
+290;Informazioni errate;Reception parlava diverse lingue ma informazioni sugli orari dei bus sbagliate.;Reception;Negativo
+291;Attesa eterna;Piatti creativi ma attesa interminabile. Quasi un'ora tra le portate. Se non siete capaci avrei preferito qualcosa di più basilare.;F&B;Negativo
 292;Limousine;Trasferimento in limousine organizzato. Ingresso trionfale in hotel.;Reception;Positivo
-293;Dolci da sogno;Pasticceria interna con dessert pazzeschi. Paradiso per chi ama i dolci.;F&B;Positivo
+293;Dolci da sogno;Pasticceria interna con dessert pazzeschi. Paradiso per chi ama i dolci. Buone anche le varie bevande;F&B;Positivo
 294;Parcheggio lontano;Parcheggio a un chilometro. Navetta inesistente. Scomodissimo.;Reception;Negativo
-295;Prenotazione non valida;Prenotazione online non risultava. Nessuna camera per noi.;Reception;Negativo
-296;Cocktail annacquati;Barman simpatico ma cocktail annacquati. Poco alcol.;F&B;Negativo
+295;Prenotazione non valida;Prenotazione online non risultava. Ce ne siamo dovuti andare.;Reception;Negativo
+296;Cocktail annacquati;Barman affascinante ma cocktail annacquati. Poco alcol.;F&B;Negativo
 297;Acqua versata addosso;Cameriere mi ha versato acqua addosso. Non si è scusato. Umiliante.;F&B;Negativo
 298;Servizio caotico;Servizio caotico. Camerieri litigavano tra loro in sala.;F&B;Negativo
-299;Torta compleanno;Torta personalizzata per il compleanno di mia madre. Meravigliosa.;F&B;Positivo
+299;Torta compleanno;Torta personalizzata per il compleanno di mia madre. Meravigliosa. Sembrava un’opera d’arte di pasticceria.;F&B;Positivo
 300;Ascensore guasto;Ascensore guasto per tutto il soggiorno. Quarto piano a piedi.;Reception;Negativo
-301;Spettacolo brutto;Spettacolo piano bar stonato e caciarone. Siamo dovuti andare via.;F&B;Negativo
+301;Spettacolo brutto;Lo spettaco al piano bar di ieri sera è stato penoso. Il cantante stonato e caciarone. Siamo dovuti andare via perché mi facevo male le orecchie.;F&B;Negativo
 302;Frutta fresca;Cestino di frutta fresca in hall tutto il giorno. Pausa sana.;F&B;Positivo
-303;Acqua calda non arriva;Acqua calda non arrivava al mattino. Docce velocissime e spiacevoli.;Housekeeping;Negativo
-304;Colazione sempre uguale;Colazione sempre uguale per quattro giorni. Qualità scadente.;F&B;Negativo
-305;Nessun contatto emergenza;Notte problema al condizionatore. Reception chiusa, telefono non funzionava.;Reception;Negativo
+303;Acqua calda non arriva;Acqua calda non arrivava al mattino. Docce velocissime e spiacevoli. Sicuramente lo fanno perché vogliono risparmiare sull’acqua. Vergogna!;Housekeeping;Negativo
+304;Colazione sempre uguale;Colazione sempre uguale per quattro giorni. Qualità scadente come se non bastasse.;F&B;Negativo
+305;Nessun contatto emergenza;Questa notte ho avuto un problema al condizionatore. Reception chiusa, telefono non funzionava.;Reception;Negativo
 306;Lavori senza preavviso;Lavori con trapani la mattina presto senza preavviso. Svegliati di soprassalto.;Reception;Negativo
-307;Ascensore rotto;Accoglienza ok ma ascensore rotto. Valigie al terzo piano a piedi.;Reception;Negativo
-308;Indicazioni confuse;Indicazioni confuse per la camera. Vagato mezz'ora con le valigie.;Reception;Negativo
-309;Camera gelida;Camera gelida, termosifoni spenti. Dormito con i cappotti.;Reception;Negativo
+307;Ascensore rotto;Accoglienza ok ma ascensore rotto. Valigie portate al terzo piano a piedi e non ho nemmeno ricevuto delle scuse.;Reception;Negativo
+308;Indicazioni confuse;Indicazioni confuse per la camera. Ho vagato mezz'ora con le valigie come un pirla per colpa loro.;Reception;Negativo
+309;Camera ben climatizzata;Il climatizzatore in camera funzionava alla perfezione e l’isolamente è molto buono.;Reception;Positivo
 310;Bicchieri di plastica;Drink costoso servito in bicchiere di plastica. Poco elegante.;F&B;Negativo
-311;Lettini comodissimi;Ombrellone e lettini comodissimi. Stesso posto per tutto il soggiorno.;Reception;Positivo
+311;Lettini comodissimi;Ombrellone e lettini comodissimi. Da notare il fatto che mi hanno permesso di tenere lo stesso posto per tutto il soggiorno.;Reception;Positivo
 312;Zona living;Camera con zona living accogliente. Divano e poltrone. Come a casa.;Housekeeping;Positivo
 313;Macedonia fresca;Macedonia di frutta freschissima a colazione. Deliziosa.;F&B;Positivo
 314;Materasso nuovo;Si dorme divinamente. Sostegno perfetto per la schiena.;Housekeeping;Positivo
-315;Odore di muffa;Armadio capiente ma odore strano di muffa. Anta chiusa.;Housekeeping;Negativo
-316;Spremuta fresca;Spremuta d'arancia fatta al momento. Gusto intenso e vivo.;F&B;Positivo
+315;Odore di muffa;Dentro l’armadio c’era odore strano di muffa. Anta chiusa immediatamente.;Housekeeping;Negativo
+316;Spremuta fresca;Ho apprezzato la spremuta d'arancia fatta al momento. Gusto intenso e vivo.;F&B;Positivo
 317;Ascensore lento;Drink di benvenuto ma ascensore lentissimo. Si fermava ad ogni piano.;Reception;Negativo
-318;Cestino picnic;Cestino da picnic preparato su richiesta. Panini gourmet e vino.;F&B;Positivo
-319;Attenzione disabili;Grande attenzione ai clienti con disabilità. Mi hanno aiutato in carrozzina.;Reception;Positivo
-320;Hotel climatizzato;Nonostante temperature ostili, all'interno si stava benissimo.;Reception;Positivo
-321;Cena romantica;Cena di anniversario indimenticabile. Atmosfera intima e raffinata.;F&B;Positivo
-322;Angolo caffè 24h;Angolo con caffè e tisane 24 ore su 24. Sempre a disposizione.;F&B;Positivo
-323;Moquette macchiata;Moquette in camera non lavata da anni. Macchiata e sporca.;Housekeeping;Negativo
-324;Cuscini vecchi;Materasso nuovo ma cuscini vecchi e sfondati. Sottilissimi.;Housekeeping;Negativo
-325;Panorama mozzafiato;Vista dal balcone della camera vale tutto il prezzo. Mozzafiato.;Housekeeping;Positivo
-326;Tour privato;Tour privato della città con guida locale. Fantastico.;Reception;Positivo
+318;Cestino picnic;Cestino da picnic preparato su richiesta. Panini gourmet e vino. Una coccola gradita e non scontata.;F&B;Positivo
+319;Attenzione disabili;Grande attenzione ai clienti con disabilità. Mi hanno aiutato in carrozzina. Il personale è stato veramento caloroso con me.;Reception;Positivo
+320;Hotel climatizzato;Nonostante temperature ostili, all'interno si stava benissimo grazie all’ottimo impianto di climatizzazione.;Reception;Positivo
+321;Cena romantica;Cena di anniversario indimenticabile. Atmosfera intima e raffinata. Anche a mia moglie è piaciuto molto.;F&B;Positivo
+322;Angolo caffè 24h;Molto apprezzabile l’angolo con caffè e tisane 24 ore su 24. Sempre a disposizione.;F&B;Positivo
+323;Moquette macchiata;Credo che la moquette che ho trovato in camera venga lavata da anni. Macchiata e sporca.;Housekeeping;Negativo
+324;Cuscini vecchi;Tutti i cuscini erano vecchi, sfondati e sottilissimi. Impossibile una situazione del genere. Peccato.;Housekeeping;Negativo
+325;Panorama mozzafiato;La vista dal balcone della camera sulla città vale tutto il prezzo. Mozzafiato.;Housekeeping;Positivo
+326;Tour privato;Mi hanno accompagnato personalmente e fornito una mappa dell’hotel, mai vista così tanta disponibilità.;Reception;Positivo
 327;Computer rotto;Check-out interminabile per computer bloccato. Mezz'ora di attesa.;Reception;Negativo
-328;Servizio in camera;Servizio in camera impeccabile. Cena calda e puntuale.;F&B;Positivo
+328;Servizio in camera;Servizio in camera impeccabile. Cena discreta, calda e puntuale.;F&B;Positivo
 329;Doppio addebito;Doppio addebito sulla carta per lo stesso soggiorno. Litigato per rimborso.;Reception;Negativo
-330;Conto errato;Check-out veloce ma conto errato. Mini bar non utilizzato addebitato.;Reception;Negativo
+330;Conto errato;Check-out con conto errato. Mini bar non utilizzato addebitato.;Reception;Negativo
 331;Topper memory;Materasso con topper extra in memory foam. Paradisiaco.;Housekeeping;Positivo
-332;Piatto sbagliato;Cameriere ha portato piatto sbagliato. Aria scocciata senza scuse.;F&B;Negativo
-333;Dolci tipici;Dolci tipici locali fatti in casa. Seadas e pardulas deliziose.;F&B;Positivo
-334;Lampadina rotta;Lampadina del bagno fulminata. Segnalato ma mai sostituita.;Housekeeping;Negativo
-335;Un solo addetto;Un solo addetto per troppi clienti al banco. Sempre in attesa.;Reception;Negativo
-336;Porzioni minime;Piatti creativi ma porzioni minime. Usciti con fame.;F&B;Negativo
-337;Vino torbido;Vino torbido e ossidato. Cameriere ha insistito fosse normale.;F&B;Negativo
-338;Parcheggio caro;Parcheggio custodito comodo ma 25 euro al giorno. Caro.;Reception;Negativo
-339;Tapparelle rotte;Tapparelle rotte non si alzavano. Vissuto al buio tutto il giorno.;Housekeeping;Negativo
+332;Piatto sbagliato;Cameriere ha portato piatto sbagliato. Come se non bastasse aveva un’aria scocciata senza nemmeno darci delle scuse.;F&B;Negativo
+333;Dolci tipici;Ho adorato i dolci tipici locali fatti in casa. Seadas e pardulas deliziose. Anche il resto mi è piaciuto.;F&B;Positivo
+334;Lampadina rotta;Lampadina del bagno fulminata. Segnalato il problema ma mai sostituita. Odio essere ignorato in questo modo.;Housekeeping;Negativo
+335;Un solo addetto;C’è solo un solo addetto per troppi clienti al banco. Sempre in attesa. Dovrebbero assumera altra gente alla svelta.;Reception;Negativo
+336;Porzioni minime;Porzioni esageratamente scarse, nemmeno stessimo parlato di un hotel a 5 stelle. Usciti affamati e arrabbiati.;F&B;Negativo
+337;Vino torbido;Vino torbido e ossidato. Cameriere ha insistito fosse normale. A quanto pare di vini non ne capisce nulla.;F&B;Negativo
+338;Parcheggio utile ma caro;Parcheggio custodito comodo ma forse per 25 euro al giorno è un po’ caro. Da altre parti costa di meno.;Reception;Positivo
+339;Tapparelle rotte;Tapparelle rotte non si alzavano. Vissuto al buio tutto il giorno. Urge manutenzione generale.;Housekeeping;Negativo
 340;Materasso sfondato;Materasso vecchio con molle che si sentivano. Dolori alla schiena.;Housekeeping;Negativo
-341;Ottima esperienza;Soggiornare qui è stato veramente un piacere. Ottimo.;Reception;Positivo
-342;Asciugamani morbidi;Asciugamani morbidissimi e profumati. Cambiati ogni giorno.;Housekeeping;Positivo
+341;Ottima esperienza;Soggiornare qui è stato veramente un piacere. Grazie a tutti davvero, tornerò quando ripasserò per le zone.;Reception;Positivo
+342;Asciugamani morbidi;Asciugamani morbidissimi e profumati. Cambiati ogni giorno. Apprezzo sempre personale attento all’igiene;Housekeeping;Positivo
 343;Ravioli pazzeschi;Non sono un esperto ma questi ravioli erano davvero squisiti.;F&B;Positivo
-344;Bagaglio smarrito;Bagaglio dimenticato in un deposito. Ore perse per ritrovarlo.;Reception;Negativo
-345;Climatizzatore rumoroso;Impossibile dormire con quel ronzio costante del climatizzatore.;Housekeeping;Negativo
-346;Troppa confusione;L'area comune era sempre caotica e disordinata. Confusione.;Reception;Negativo
-347;Personale simpatico;Camerieri simpatici ma disorganizzati. Portavano piatti sbagliati.;F&B;Negativo
+344;Bagaglio smarrito;Il mio bagaglio dimenticato in un deposito. Ore perse per ritrovarlo, ho avuto paura di averlo perso per sempre.;Reception;Negativo
+345;Climatizzatore rumoroso;Impossibile dormire con quel ronzio costante del climatizzatore. Se poi lo spengo fa troppo caldo. Che cavolo!;Housekeeping;Negativo
+346;Troppa confusione;L'area comune era sempre caotica e disordinata, non ci si poteva stare. Confusione.;Reception;Negativo
+347;Personale disorganizzato;I camerieri non erano male, ma portavano piatti sbagliati. Probabilmente i più hanno poca esperienza.;F&B;Negativo
 348;Manca rampa;Per le persone disabili non è semplice entrare. Manca rampa.;Reception;Negativo
-349;Odore di fogna;Zona tranquilla ma odore di fogna in bagno. Persistente.;Housekeeping;Negativo
+349;Odore di fogna;Zona tranquilla ma odore di fogna in bagno persistente. Non si può stare con quella puzza in camera, me la sono fatta cambiare quanto prima.;Housekeeping;Negativo
 350;Tessuti di qualità;Tessuti di qualità pregiata. Mantenuti impeccabili.;Housekeeping;Positivo
-351;Lenzuola sporche;Lenzuola con macchie gialle sospette. Coperte con buchi.;Housekeeping;Negativo
+351;Lenzuola di ottima fattura;Le lenzuola erano ottime sia dal punto di vista estetico, che da quello olfattivo. Al tatto il tessuto sembrava di qualità, ma non me ne intendo molto,;Housekeeping;Positivo
 352;Pizza in piscina;Pizza ai lettini in piscina. Calda e fragrante. Comodissimo.;F&B;Positivo
-353;Biancheria mancante;Divano letto senza lenzuola. Un'ora di attesa.;Housekeeping;Negativo
-354;Prezzi eccessivi;30 euro per una carbonara mi sembra troppo. Eccessivo.;F&B;Negativo
-355;Biscotti umidi;Biscotti umidi, confezioni aperte da giorni. Latte acido.;F&B;Negativo
-356;Assistenza ristorante;Ci hanno consigliato ristorante stellato. Prenotato per noi. Indimenticabile.;Reception;Positivo
-357;Nessuna istruzione TV;Nessun foglio su come funziona la TV. Dieci minuti per accenderla.;Reception;Negativo
-358;Coperte leggere;Materasso ok ma coperte troppo leggere. Avevamo freddo.;Housekeeping;Negativo
+353;Biancheria mancante;Divano letto senza lenzuola. Ho fatto richiesta ma un'ora di attesa.;Housekeeping;Negativo
+354;Prezzi eccessivi;30 euro per la carbonara che ho ordinato mi sembra troppo. Eccessivo. Devono abbassare i prezzi.;F&B;Negativo
+355;Biscotti umidi;I biscotti erano umidi, secondo me le confezioni erano aperte da giorni e sarebbe. Anche il latte male perché acido. Unica cosa che si salva il caffè, ma non lo fanno loro.;F&B;Negativo
+356;Assistenza ristorante;I ragazzi della reception ci hanno consigliato su nostra richiesta ristorante stellato e lo hanno anche prenotato per noi. Indimenticabile.;Reception;Positivo
+357;Nessuna istruzione TV;Nessun foglio su come funziona la TV. Dieci minuti per accenderla. Capisco di essere un po’ imbranata ma mi sarei aspettata un supporto maggiore.;Reception;Negativo
+358;Coperte leggere;Il materasso era ok ma coperte troppo leggere. Abbiamo avuto freddo.;Housekeeping;Negativo
 359;Doccia intasata;Doccia intasata che allagava il bagno. Asciugamani per tamponare.;Housekeeping;Negativo
-360;Porzioni minuscole;Piatti minuscoli a prezzi folli. Usciti affamati.;F&B;Negativo
-361;Armadio spazioso;Armadio enorme con tante grucce di legno. Funzionale.;Housekeeping;Positivo
+360;Porzioni minuscole e prezzi folli;Piatti minuscoli a prezzi veramente esagerati, il livello era anche poco più che scarso. Siamo usciti affamati e siamo dovuti andare da un’altra parte. ;F&B;Negativo
+361;Armadio spazioso;Armadio enorme con tante grucce di legno, magari averne uno così anche a casa. Veramente funzionale.;Housekeeping;Positivo
 362;Pranzo in ritardo;Pranzo arrivato con oltre un'ora di ritardo. Freddo e scadente.;F&B;Negativo
-363;Piatti finiti;Menu limitato, molti piatti finiti subito. Scelto quel che restava.;F&B;Negativo
-364;Tutto perfetto;Soggiorno impeccabile e personale gentilissimo. Perfetto.;Reception;Positivo
+363;Piatti finiti;Menu limitato, molti piatti finiti subito. Mi sono dovuto accontentare di quel che restava.;F&B;Negativo
+364;Ci tornerò il prima possibile;Soggiorno impeccabile e personale gentilissimo. Tutto perfetto davvero.;Reception;Positivo
 365;Fiori e torta;Hanno organizzato sorpresa per compleanno. Fiori e torta in camera.;Reception;Positivo
-366;Servizio impeccabile;Personale veramente molto gentile. Esperienza piacevolissima.;Reception;Positivo
-367;Cuscini puzzolenti;Cuscini con odore acre di sudore e aloni gialli. Schifezza.;Housekeeping;Negativo
-368;Doccia sporca;All'interno della doccia erano presenti capelli. Sporca.;Housekeeping;Negativo
+366;Servizio impeccabile;Personale veramente molto gentile e simpatico. Esperienza piacevolissima.;Reception;Positivo
+367;Cuscini puzzolenti;Tutti i cuscini avevano un odore acre di sudore e aloni gialli. Che schifezza. Ma puliscono ogni tanto o no?;Housekeeping;Negativo
+368;Doccia sporca;All'interno della doccia erano presenti capelli. Posso dire che mi faceva schifo o qualcuno si offende?;Housekeeping;Negativo
 369;Vetri puliti;Vetri delle finestre sempre perfettamente puliti. Senza aloni.;Housekeeping;Positivo
-370;Coperta offerta;Cameriere ci ha offerto coperta di lana. Gesto di cortesia.;F&B;Positivo
-371;Servizio impeccabile;Cameriere perfetto: discreto, attento, professionale. Grazie.;F&B;Positivo
-372;Prenotazione errata;Non trovavano la mia stanza al computer. Errore.;Reception;Negativo
-373;Vino caldo;Vino rosso servito caldo. Cameriere incompetente.;F&B;Negativo
-374;Cibo ottimo;Sia la cena che il pranzo sono stati deliziosi. Ottimo.;F&B;Positivo
+370;Coperta offerta;Ho fermato la signora delle pulizie che ci ha offerto coperta di lana. Gesto di cortesia molto apprezzato.;F&B;Positivo
+371;Servizio impeccabile;Il cameriere giovane era perfetto: discreto, attento, professionale. Grazie di tutto.;F&B;Positivo
+372;Prenotazione errata;Alla reception non riuscivano a trovavare la mia stanza al computer. Questo errore mi ha fatto perdere tempo.;Reception;Negativo
+373;Vino caldo e mancanza di competenza;Vino rosso servito caldo. Cameriere incompetente su tutti i fronti.;F&B;Negativo
+374;Cibo ottimo;Sia la cena che il pranzo sono stati deliziosi. Ottimo il servizio al tavolo, soprattutto se consideri che eravamo nel weekend.;F&B;Positivo
 375;Cuscini duri;Cuscini troppo duri. Ho avuto mal di collo per tutto il soggiorno.;Housekeeping;Negativo
-376;Conto prima di finire;Cameriere ha portato il conto mentre mangiavamo. Scortese.;F&B;Negativo
-377;Finestre bloccate;Camera calda ma finestre bloccate. Non si poteva aprire.;Housekeeping;Negativo
-378;Mobili vecchi;La mia camera avrebbe bisogno di una ristrutturazione. Vecchi.;Housekeeping;Negativo
-379;Ascensore sporco;Ascensore sporco di fango. Scale con mozziconi. Abbandonato.;Housekeeping;Negativo
-380;Nessun riscontro;Lamentela per rumore, nessun riscontro. Cambio camera negato.;Reception;Negativo
-381;Maniglie rotte;Maniglie armadio rotte e taglienti. Pericoloso per bambini.;Housekeeping;Negativo
+376;Conto prima di finire;Cameriere ha portato il conto mentre mangiavamo, ma ce la fai? Veramente scortese come atteggiamento, lo faro presente.;F&B;Negativo
+377;Finestre bloccate;Camera calda ma finestre bloccate. Non si poteva aprire. Ho sudato più di quando vado a giocare a padel.;Housekeeping;Negativo
+378;Mobili vecchi;La mia camera avrebbe bisogno di una ristrutturazione. Sembra cadere a pezzi!;Housekeeping;Negativo
+379;Ascensore sporco;Ascensore sporco di fango. Scale con mozziconi. Sembra quasi un posto abbandonato.;Housekeeping;Negativo
+380;Nessun riscontro;Lamentela per rumore notturno, nessun riscontro da parte dei ragazzi della reception. Non ho potuto fare cambio camera.;Reception;Negativo
+381;Maniglie rotte;Maniglie armadio rotte e taglienti. Pericoloso per bambini. Non mi hanno nemmeno permesso di cambiare stanza.;Housekeeping;Negativo
 382;Pulizia rapida;Team delle pulizie velocissimo e di ottimo livello. Preparati.;Housekeeping;Positivo
-383;Secondi mediocri;Primi ottimi ma secondi di carne cotti male e duri.;F&B;Negativo
-384;Piatti surgelati;Tutto il cibo sapeva di surgelato. Nulla di fresco.;F&B;Negativo
-385;Rumore notturno;Posizione centrale ma rumore dai locali fino alle 3. Non isolato.;Reception;Negativo
+383;Secondi mediocri;Secondi di carne cotti male e duri, il resto era mangiabile.;F&B;Negativo
+384;Piatti surgelati;Tutto il cibo sapeva di surgelato, nulla di fresco. Mi aspettavo molto meglio visto quello che si paga;F&B;Negativo
+385;Rumore notturno;Posizione centrale ma rumore dai locali fino alle 3. Pareti non isolate a sufficienza.;Housekeeping;Negativo
 386;Check-out tardivo;Hanno accordato check-out tardivo senza problemi. Flessibili.;Reception;Positivo
-387;Cena così così;Cena qualità media. Camera rumorosa sulla strada principale.;F&B;Negativo
+387;Cena così così;Cena qualità media. Prezzi comunque accettabili. Per quella che è stata l’esperienza complessiva mi sento comunque di consigliarlo.;F&B;Positivo
 388;Personale sgarbato;Addetti alle pulizie sgarbati. Mi hanno obbligato ad uscire.;Housekeeping;Negativo
-389;Wifi assente;Wifi in camera non funzionava quasi mai. Personale per lo meno era decente.;Reception;Negativo
-390;Aria centralizzata;Aria condizionata centralizzata. Impossibile regolare temperatura.;Reception;Negativo
-391;Nessuno risponde;Servizio in camera, telefono squilla a vuoto. Nessuno risponde.;Reception;Negativo
-392;Rumore alle 7;Martellate dal piano di sopra alle 7 del mattino. Lavori in corso.;Reception;Negativo
+389;Wifi assente;Wifi in camera non funzionava quasi mai e questo mi ha creato del disagio perché dovevo mandare email urgenti. Il personale per lo meno era decente.;Reception;Negativo
+390;Aria centralizzata;Aria condizionata centralizzata. Impossibile regolare temperatura autonomamente. Io ho avuto freddo.;Reception;Negativo
+391;Nessuno risponde;Servizio pessimo, ho provato a chiamare il centralino e il telefono squilla a vuoto. Nessuno risponde.;Reception;Negativo
+392;Rumore alle 7;Martellate dal piano di sopra alle 7 del mattino per lavori in corso. Se la camera fosse stata insonorizzata meglio forse sarei pure riuscito a dormirci su.;Housekeeping;Negativo
 393;Pizza bruciata;Pizza bruciata sul bordo, cruda al centro. Immangiabile.;F&B;Negativo
-394;Tovaglie sporche;Tovaglia piena di macchie e briciole. Non cambiata.;F&B;Negativo
+394;Tovaglie sporche;La tovaglia piena di macchie e briciole, probabilmente non era stata lavata. Davvero disgustoso.;F&B;Negativo
 395;Check-in rapidissimo;Check-in rapidissimo e gentile. Dopo viaggio stancante, perfetto.;Reception;Positivo
-396;Sala meeting;Sala meeting spaziosa e luminosa. Attrezzature perfette.;Reception;Positivo
+396;Sala meeting;Sala meeting spaziosa e luminosa e attrezzature all’interno perfette. Anche i miei clienti ne sono rimasti colpiti.;Reception;Positivo
 397;Bicchieri design;Bicchieri e stoviglie di design. Eleganti e piacevoli.;F&B;Positivo
-398;Doppi vetri;Doppi vetri insonorizzati. Silenzio totale nonostante la strada.;Housekeeping;Positivo
-399;Reception amichevole;Ragazzi amichevoli ma attese lunghe. Servirebbe più personale.;Reception;Negativo
-400;Quadri bellissimi;Nei corridoi pieno di quadri bellissimi. Arredamento curato.;Housekeeping;Positivo
+398;Doppi vetri;Doppi vetri insonorizzati. Silenzio totale nonostante la strada anche quando fuori c’era traffico.;Housekeeping;Positivo
+399;Troppe perdite di tempo;Le attese per ricevere i servizi sono troppo lunghe. Servirebbe più personale.;Reception;Negativo
+400;Quadri bellissimi;Nei corridoi pieno di quadri bellissimi, sembra quasi di essere in un museo d’arte. Arredamento curato nella stanza.;Housekeeping;Positivo
