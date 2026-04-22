@@ -1,3 +1,6 @@
+import os
+import tempfile
+
 import gradio as gr
 import pandas as pd
 from datetime import datetime
@@ -74,11 +77,13 @@ def launch_gradio(v_dep, v_sent, model_dep, model_sent):
             updated_data = pd.concat([rev_list, pd.DataFrame([new_entry])], ignore_index=True)
             return dep, sent, score, updated_data
 
-
+        # Si salva tra i file temporanei per non intasare la root del progetto
         def export (df):
             name = f"recensioni_esportate_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-            df.to_csv(name, index=False, sep=';')
-            return name
+            temp_dir = tempfile.gettempdir()
+            path = os.path.join(temp_dir, name)
+            df.to_csv(path, index=False, sep=';')
+            return path
 
         # Definizione grafica prima riga della pagina
         with gr.Row():

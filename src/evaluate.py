@@ -31,6 +31,7 @@ def show_results(models_to_show, errors_html):
         html_to_replace = ' '.join(html_to_replace_list)
         content = ''
 
+        # Apro template, leggo e metto in content, sostituisco placeholder, salvo file, lo apro
         with open(template_path, 'r') as f:
             content = f.read()
 
@@ -40,7 +41,7 @@ def show_results(models_to_show, errors_html):
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(dashboard)
 
-        webbrowser.open(f"file://{os.path.abspath(output_path)}")
+        webbrowser.open(f"file://{os.path.abspath(output_path)}") # Apertura dashboard browser predefinito
 
     except FileNotFoundError:
         print("Errore nel caricamento della dashboard, si mostrano i risultati a terminale:")
