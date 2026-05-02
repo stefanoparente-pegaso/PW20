@@ -119,7 +119,7 @@ ID;Titolo;Corpo;Reparto;Sentiment
 118;Cuscini ipoallergenici;Materassi e cuscini ipoallergenici. Non ho avuto allergie.;Housekeeping;Positivo
 119;Portineria eccellente;Servizio di portineria eccellente. Hanno prenotato taxi e spettacoli.;Reception;Positivo
 120;Marmellata eccezionale;Marmellata di lamponi eccezionale. Mai assaggiata una così.;F&B;Positivo
-121;Frutta marcia;Cestino di benvenuto con frutta marcia e ammuffita. Pessima figura e disattenzione grave.;Housekeeping;Negativo
+121;Frutta marcia;Cestino di benvenuto con frutta marcia e ammuffita, c'era un odore nauseabondo un po' ovunque. Pessima figura e disattenzione grave.;Housekeeping;Negativo
 122;Prenotazione persa;Prenotazione al ristorante persa. Abbiamo aspettato invano un'ora poi ce ne siamo andati.;Reception;Negativo
 123;Terrazza vista mare;Ampia terrazza privata con vista spettacolare sul mare. Paradiso.;Housekeeping;Positivo
 124;Verdure marce;Antipasto con verdure marce e immangiabili. Rischio per la salute.;F&B;Negativo
@@ -186,7 +186,7 @@ ID;Titolo;Corpo;Reparto;Sentiment
 185;Portate mancanti;Si sono scordati di portarci le patate fritte ordinate. Mio figlio ci è rimasto male.;F&B;Negativo
 186;Cena mediocre;Cena mediocre, servizio lentissimo. Piatto scotto e insapore.;F&B;Negativo
 187;Prezzi folli;Ovviamente non ti avvisano del fatto che devi spendere 5 euro per un'acqua piccola al minibar. Un furto.;F&B;Negativo
-188;Macchie di unto;Pareti piene di macchie di unto e ditate. Orribile dover stare in un ambiente così poco curato.;Housekeeping;Negativo
+188;Macchie di unto;Pareti piene di macchie di unto e ditate, mai visto uno schifo del genere. Orribile dover stare in un ambiente così poco curato.;Housekeeping;Negativo
 189;Dimenticanze;Pulizie giornaliere ma spesso dimenticavano l'acqua. Piccole dimenticanze.;Housekeeping;Negativo
 190;Caffè orribile;Caffè annacquato e freddo. Uova stoppose e pancetta secca.;F&B;Negativo
 191;Atmosfera da stadio;Alla sera persone urlavano e facevano rumore. Deluso anche dal personale che sarebbe dovuto intervenire.;Reception;Negativo
@@ -201,13 +201,13 @@ ID;Titolo;Corpo;Reparto;Sentiment
 200;Problemi chiave;La tessera magnetica si smaterializzava ogni giorno. Problemi continui.;Reception;Negativo
 201;Camerieri preparati;Camerieri preparati sui vini. Abbinamenti perfetti con i piatti. Conto leggermente alto ma ok per la qualità dei prodotti mangiati.;F&B;Positivo
 202;Carta da parati elegante;Carta da parati elegante e ben tenuta. Ambiente raffinato.;Housekeeping;Positivo
-203;Cattivi odori;Bagno puzzava di fogna. Tubature rumorose di notte.;Housekeeping;Negativo
+203;Cattivi odori;Bagno puzzava di fogna, impossibile potersi rilassare in un ambiente così schifoso. Tubature rumorose di notte.;Housekeeping;Negativo
 204;Letto sfatto;Rientrati, letto completamente sfatto. Pulizie fatte a metà.;Housekeeping;Negativo
 205;Babysitting eccezionale;Servizio di babysitting eccezionale. Ragazza fantastica e paziente.;Reception;Positivo
 206;Servizio inesistente;Personale assente all'arrivo. Sgarbato e frettoloso quando finalmente è comparso. Per poco non abbiamo litigato, resta il fatto che il servizio è pessimo.;Reception;Negativo
 207;Manutenzione assente;Camera pulita ma mensola rotta e lampadina fulminata non risolte.;Housekeeping;Negativo
 208;Pesce freschissimo;Grigliata mista di pesce freschissimo. Cotto alla perfezione. Ok i contorni.;F&B;Positivo
-209;Servizio in camera assente;Accoglienza calorosa ma servizio in camera non funzionato per due giorni.;Reception;Negativo
+209;Servizio in camera assente;L'accoglienza c'è stata, ma servizio in camera non funzionato per due giorni.;Reception;Negativo
 210;Staffe portasci;Locale sicuro con staffe per sci e bici. Comodissimo.;Reception;Positivo
 211;Caffetteria eccellente;Caffè eccellente. Cappuccini ed espresso sempre perfetti. Buone anche le brioche di accompagnamento.;F&B;Positivo
 212;Manutenzione impeccabile;Aria condizionata e acqua calda sempre funzionanti. E per fortuna questi apparecchi erano silenziosi.;Housekeeping;Positivo
@@ -252,7 +252,7 @@ ID;Titolo;Corpo;Reparto;Sentiment
 251;Parcheggio professionale;Ragazzo ha portato l'auto in parcheggio. Molto professionale.;Reception;Positivo
 252;Posate macchiate;Cibo buono ma posate macchiate. Dovute chiedere altre.;F&B;Negativo
 253;Cena a lume di candela;Cena sulla terrazza a lume di candela. Atmosfera magica e romantica.;F&B;Positivo
-254;Pavimenti appiccicosi;Pavimento appiccicoso con macchie scure. Impossibile camminare a piedi nudi.;Housekeeping;Negativo
+254;Pavimenti appiccicosi;Pavimento appiccicoso con macchie scure. Impossibile camminare a piedi nudi sopra tutto quel lerciume.;Housekeeping;Negativo
 255;Materasso sfondato;Materasso sfondato al centro. Cuscini sottilissimi. Mal di schiena.;Housekeeping;Negativo
 256;Mancanza tenda oscurante;Mancava tenda oscurante. Luce già alle 6. Impossibile dormire.;Housekeeping;Negativo
 257;Acqua calda assente;Per due giorni niente acqua calda. Nessuno ci aveva informato.;Reception;Negativo
